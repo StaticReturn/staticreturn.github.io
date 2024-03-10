@@ -9,7 +9,12 @@ aux_links:
 
 color_scheme: dark
 
+callouts_level: quiet # or loud
 callouts:
   warning:
     title: Warning
     color: red
+  ability:
+    color: purple
+  note:
+    color: blue

@@ -2,7 +2,7 @@
 title: Dwarf
 layout: home
 parent: Races
-nav_order: 2
+nav_order: 3
 ---
 
 # Dwarf

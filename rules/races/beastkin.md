@@ -16,14 +16,14 @@ Part Human, part animal.  The tables below are guidelines.  You may choose or ro
 |        | 1.  Urban            | 2.  Rural  | 3.  Wild      | 4.  Wild   | 5.  Exotic   | 6.  Exotic |
 | ------ | -------------------- | ---------- | ------------- | ---------- | ------------ | ---------- |
 | **2**  | Cockroach            | Bat        | Wolf          | Muskrat    | Lion         | Snake      |
-| **3**  | Cat                  |            | Fox           | Raccoon    | Wolverine    | Monkey     |
-| **4**  | Dog                  |            | Badger        | Opossum    | Armadillo    | Camel      |
+| **3**  | Cat                  | Cat        | Fox           | Raccoon    | Wolverine    | Monkey     |
+| **4**  | Dog                  | Dog        | Badger        | Opossum    | Armadillo    | Camel      |
 | **5**  | Rat / Mouse          | Cow / Bull | Bear          | Skunk      | Tiger        | Buffalo    |
 | **6**  | Squirrel             | Pig        | Mountain Lion | Porcupine  | Leopard      | Spider     |
 | **7**  | Sparrow              | Chicken    | Bobcat / Lynx | Mole       | Cheetah      | Chameleon  |
 | **8**  | Pigeon               | Duck       | Owl           | Weasel     | Polar Bear   | Frog       |
-| **9**  | Guinea Pig / Hamster | Horse      | Weasel        | Hawk       | Aardvark     | Orangutan  |
-| **10** | Parakeet             | Rabbit     | Alligator     | Deer / Elk | Rhinoceros   |            |
+| **9**  | Guinea Pig / Hamster | Horse      | Coyote        | Hawk       | Aardvark     | Orangutan  |
+| **10** | Parakeet             | Rabbit     | Alligator     | Deer / Elk | Rhinoceros   | Camel      |
 | **11** | Crow / Raven         | Sheep      | Otter         | Moose      | Hippopotamus |            |
 | **12** | Turtle               | Goat       | Beaver        | Boar       | Elephant     |            |
 
@@ -71,13 +71,15 @@ Part Human, part animal.  The tables below are guidelines.  You may choose or ro
 
 **Animal Speech**  -  You may communicate with animals of your animal type.  Remember, they are still animals with animal intelligence.
 
-**Antlers & Horns**  -  
+**Antlers & Horns**  -  Your antlers or horns may be used as a weapon with the following traits:  _Quick_, _Long_.
 
-**Claws**  -  
+**Claws**  -  Your claws may be used as a weapon with the following traits:  _Quick_, _Light_.
 
-**Digging & Tunneling**  -  
+**Teeth & Tusks**  -  Your teeth may be used as a weapon with the following traits:  _Heavy_, _Grapple_ 
 
-**Wings**  -  All Kinfolk with wings can not fly, though they can glide.  They can carry up to twice their natural body weight.  If they are weighed down more, they fall instead of glide.
+**Digging & Tunneling**  -  You can create a 3 foot diameter tunnel at a rate of 1 foot per minute.
+
+**Wings**  -  You can glide.  You can carry up to twice your natural body weight.  If you are weighed down more, you fall instead of glide.
 
 **Far Vision**  -  You may adjust your vision to see as an average human can or magnify your vision up to eight times that of a human.
 
@@ -93,8 +95,6 @@ Part Human, part animal.  The tables below are guidelines.  You may choose or ro
 
 **Hold Breath**  -  You can hold your breath for 30 minutes if you move minably.  You can hold your breath for 10 minutes if you only lightly exert yourself.
 
-**Natural Body Armor**  - 
-
-**Teeth & Tusks**  - 
+**Natural Body Armor**  -  You gain 1 point of damage reduction.
 
 **Sprinter** -  You can run twice as fast as a human.

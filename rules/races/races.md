@@ -17,10 +17,10 @@ There are tree types of races: common, cursed, and monstrous.
 ### Rare Races
 * [Beastkin]({% link rules/races/beastkin.md %})
 * [Orc]({% link rules/races/orc.md %})
-* Itthik
+* [Itthik]({% link rules/races/itthik.md %})
 
 ### Monstrous Races
-* Dragonborn
-* Goblin
-* Minotaur
-* Ogre
+* [Dragonbound]({% link rules/races/dragonbound.md %})
+* [Goblin]({% link rules/races/goblin.md %})
+* [Minotaur]({% link rules/races/minotaur.md %})
+* [Ogre]({% link rules/races/ogre.md %})
