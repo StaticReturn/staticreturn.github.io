@@ -29,9 +29,9 @@ Part Human, part animal.  The tables below are guidelines.  You may choose or ro
 
 ### Cause
 
-| **1 - 2** | Random |  There is no clear reason why you changed.
-| **3 - 4** | Environment |  A specific environment has somehow changed you.
-| **5 - 6** | Deliberate |  Someone changed you for a reason.
+| **1 - 2** | Random |  There is no clear reason why you changed.             |
+| **3 - 4** | Environment |  A specific environment has somehow changed you.  |
+| **5 - 6** | Deliberate |  Someone changed you for a reason.                 |
 
 ### Education and Culture
 
