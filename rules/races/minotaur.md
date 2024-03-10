@@ -14,7 +14,7 @@ nav_order: 8
 * Gain _unmovable_.
 
 {: .ability}
-Trample  ::  your turn  :: ⚔⚔<br>
+Trample  ::  your turn  :: ⚔, 5 stamina<br>
 You charge an opponent and strike him with your head and horns.  He is _prone_ and takes 1 additional point of damage.
 
 {: .ability}
