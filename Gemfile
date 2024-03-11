@@ -9,5 +9,5 @@ gem "just-the-docs", "0.8.1" # pinned to the current release
 
 # Bundler
 gem 'nokogiri'
-gem 'rack', '~> 2.2.4'
+gem 'rack', '~> 3.0.9'
 gem 'rspec'
