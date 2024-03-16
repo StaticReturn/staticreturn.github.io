@@ -58,8 +58,11 @@ The health and armor of all participants in a combat are know to all.
 * **Reactions** happen when it is not a character's turn and cost a combat die to perform.
     *  **Instants** happen just after a specific action happens.
     *  **Interrupts** happen just before a specific action happens.
-*  **Free Actions** happen at any point in combat.  This is usually a character speaking, but other actions may be demeed a free action by your DM.
-
+*  **Free Actions** happen at any point in combat.  
+    *  A character speaking.
+    *  Swapping once between your primary melee weapons and your primary ranged weapons.
+    *  Getting one item from your inventory.
+    *  Anything deemed a free action by your DM.
 
 ### Damage
 Base damage for all attacks is 3.  For every level your target has less than you, double your damage against it.  For every level your target has more than you, half your damage.  Damage is always round up.
