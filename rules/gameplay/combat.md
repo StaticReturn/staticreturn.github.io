@@ -45,8 +45,13 @@ As a reaction, a character may do one of the following:
 * ✧ Aid an ally in a challenge.
 
 
+### Called Shots
+A called shot is performed when a character wants to strike a specific spot on an target.  A ✧ combat die must be spent in addition to the ⚔ die in order to perform this action.  The consequence of a called shot on a foe is one extra damage or a condition.  Confirm your desired outcome before spending dice.
+
+
 ### Information
 The health and armor of all participants in a combat are know to all.
+
 
 ### Combat Actions
 * **Actions** happen during a character's turn and cost a combat die to perform.
@@ -56,13 +61,10 @@ The health and armor of all participants in a combat are know to all.
 *  **Free Actions** happen at any point in combat.  This is usually a character speaking, but other actions may be demeed a free action by your DM.
 
 
-### Called Shots
-A called shot is performed when a character wants to strike a specific spot on an target.  A ✧ combat die must be spent in addition to the ⚔ die in order to perform this action.  The consequence of a called shot on a foe is one extra damage or a condition.  Confirm your desired outcome before spending dice.
-
 ### Damage
 Base damage for all attacks is 3.  For every level your target has less than you, double your damage against it.  For every level your target has more than you, half your damage.  Damage is always round up.
 
-No attack may receive more than 3 added damage, no defense may receive more than 3 damage reduction.  Critical successes break this rule.
+Before level adjustments, no attack may receive more than 3 added damage and no defense may receive more than 3 damage reduction.  Critical successes break this rule.
 
 * **Resistance**:  Reduce the damage by 1.
 * **Vulernability**:  Increase the damage by 1.
