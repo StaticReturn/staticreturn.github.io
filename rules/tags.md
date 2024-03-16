@@ -9,6 +9,13 @@ A word used to summarize rules.
 
 Navigation: [condition tags](#condition-tags)
 
+### Ranges
+* **Melee**:  Within 5 feet.
+* **Close**:  Within 10 feet.
+* **Short**:  Within 30 feet.
+* **Long**:  Within 90 feet.
+* **Extended**:  Within 300 feet.
+
 ### Item Tags
 
 * **Balanced**: 
@@ -44,6 +51,9 @@ Unless stated, conditions only last one round.
 * **Blind**:  The character can not perform a range attack and deals 2 less damage on all attacks.
 * **Cursed**:  The character is under a curse that limits or threatens him in some way.  This is a long-term condition.
 * **Dazed**:  The character only gets to keep and use two combat dice.
+{: .text-grey-lt-000 }
+* **Exhausted**:  **Do something.**  Lasts until a short rest.
+{: .text-red-200 }
 * **Fear**:  The character must spend all of his movement in retreat until he finds cover.
 * **Grappled**:  The character can not move.
 * **Knocked Out**:  The character is unconcious.

@@ -26,7 +26,8 @@ When you first start a game session, roll 3d6.  For every 1-2, you have rolled a
 
 After you have rolled your combat dice you may choose to "save" one die from a previous roll and replace it with a die you just rolled.
 
-When you roll three of the same value you have a **critical success**.  Until your next turn, when you use one of your dice you may choose to make that action a **critical success**.  Critical successes tripple the damage, block all damage or upgrade the effect of your action.
+### Critical Success
+When you roll three of the same value you have a **critical success**.  Until your next turn, when you use one of your dice you may choose to make that action a **critical success**.  Critical successes double the damage, block all damage or upgrade the effect of your action.
 
 
 ### Turns
@@ -58,13 +59,14 @@ The health and armor of all participants in a combat are know to all.
 ### Called Shots
 A called shot is performed when a character wants to strike a specific spot on an target.  A ✧ combat die must be spent in addition to the ⚔ die in order to perform this action.  The consequence of a called shot on a foe is one extra damage or a condition.  Confirm your desired outcome before spending dice.
 
+### Damage
+Base damage for all attacks is 3.  For every level your target has less than you, double your damage against it.  For every level your target has more than you, half your damage.  Damage is always round up.
+
+No attack may receive more than 3 added damage, no defense may receive more than 3 damage reduction.  Critical successes break this rule.
+
+* **Resistance**:  Reduce the damage by 1.
+* **Vulernability**:  Increase the damage by 1.
+
 
 ### Movement
 You may move 20 feet per ✧ used.
-
-### Ranges
-* **Melee**:  Within 5 feet.
-* **Close**:  Within 10 feet.
-* **Short**:  Within 30 feet.
-* **Long**:  Within 90 feet.
-* **Extended**:  Within 300 feet.

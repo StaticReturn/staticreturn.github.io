@@ -21,8 +21,3 @@ There are five character levels.  Your race, bloodline, class, or profession may
 
 ### Hit Points
 All characters start with 16 + 2*(Constitution) hit points.  This value can be modified by your race, bloodline, class, or profession.
-
-### The Rule of 3
-No effects may stack more than 3 times.  No more than 3 extra damage or damage reduction.  If there were to be a stack of 4 effects, they should be considered in order of time when applied.  (earliest give are applied)
-
-Critical successes break this rule.  In this case you may **only** apply the results of a critical success to your results and may not receive effect stacks from any other source.

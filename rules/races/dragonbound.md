@@ -6,7 +6,7 @@ nav_order: 2
 ---
 
 # Dragonbound
-Dragonbound are slaves to true dragons.  They are human sized and shaped, but have the apperances of true dragons.
+Dragonbound are human sized and shaped, but have the apperances of true dragons.
 
 * Choose a dragon type.
 * When not wearing armor, you have the dragon scales action.
@@ -17,8 +17,8 @@ Dragonbound are slaves to true dragons.  They are human sized and shaped, but ha
 
 {: .ability}
 Dragon Breath  ::  your turn  :: ⚔, 5 stamina<br>
-You deal 1 less damage than normal in a short cone.  The damage is of a type related to your dragon type.
+You deal 2 damage in a short cone.  The damage is of a type related to your dragon type.
 
 {: .ability}
 Dragon Scales  ::  reaction  :: 🛡<br>
-You receive 1 less damage from one attack.
+You receive 2 less damage from one attack.
