@@ -7,7 +7,7 @@ nav_order: 20
 # Tags
 A word used to summarize rules.
 
-Navigation: [item tags](#item-tags), [condition tags](#condition-tags)
+Navigation: [condition tags](#condition-tags)
 
 ### Item Tags
 
