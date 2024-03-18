@@ -1,7 +1,8 @@
 ---
 title: Brawler
 layout: home
-parent: Classes
+parent: Close Combat
+grand_parent: Classes
 nav_order: 2
 ---
 
@@ -12,7 +13,7 @@ A person who fights effectivly with his bare fists.
 *  You cannot be dazed.
 *  Ignore bludgeoning resistance.
 *  ⚔ When melee attacking an opponent not wearing armor add 1 damage.
-*  ⚔ If your opponent is your level or lower you grapple him.
-*  ✧ Daze an opponent in melee range.
-*  ✧ Stun a dazed oppoentn in melee range.
+*  ⚔ Grapple an opponent.
+*  ✧ Daze an opponent.
+*  ✧ Stun a dazed opponent.
 *  🛡 Gain bludgeoning resistance.

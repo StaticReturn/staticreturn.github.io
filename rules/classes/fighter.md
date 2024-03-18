@@ -1,7 +1,8 @@
 ---
 title: Fighter
 layout: home
-parent: Classes
+parent: Close Combat
+grand_parent: Classes
 nav_order: 4
 ---
 

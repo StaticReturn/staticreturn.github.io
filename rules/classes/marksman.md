@@ -1,7 +1,8 @@
 ---
 title: Marksman
 layout: home
-parent: Classes
+parent: Close Combat
+grand_parent: Classes
 nav_order: 5
 ---
 

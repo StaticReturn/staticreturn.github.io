@@ -1,9 +1,10 @@
 ---
 title: Spellsword
 layout: home
-parent: Classes
-nav_order: 6
+parent: Close Combat
+grand_parent: Classes
+nav_order: 5
 ---
 
 # Spellsword
-A person who is mixes melee combat with a tactical use of close-combat spells.
+A person who mixes melee with a tactical use of close-combat spells.

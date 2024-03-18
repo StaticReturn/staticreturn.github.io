@@ -30,30 +30,25 @@ After you have rolled your combat dice you may choose to "save" one die from a p
 When you roll three of the same value you have a **critical success**.  Until your next turn, when you use one of your dice you may choose to make that action a **critical success**.  Critical successes double the damage, block all damage or upgrade the effect of your action.
 
 
-### Turns
-During his turn, a character may do any of the following:
-
-* ⚔ Attack one target and do 2 damage.  (once per turn)
-* ⚔ ✧ Perform a called shot. 
-* ✧ Move your movement speed.
-* ✧ Use one item.  (even if it is in a container)
-* ⚔, 🛡, or ✧ Use an ability.
-
-As a reaction, a character may do one of the following:
-
-* 🛡 Reduce the damage taken by 1.
-* ✧ Aid an ally in a challenge.
-
-
-### Called Shots
-A called shot is performed when a character wants to strike a specific spot on an target.  A ✧ combat die must be spent in addition to the ⚔ die in order to perform this action.  The consequence of a called shot on a foe is one extra damage or a condition.  Confirm your desired outcome before spending dice.
-
-
-### Information
-The health and armor of all participants in a combat are know to all.
-
-
 ### Combat Actions
+A character may only make one attack action during his turn and may use reactions that deal damage.  All characters may do the following:
+
+* ⚔ Attack one target and deal damage.
+* ⚔ ✧ Perform a called shot. 
+* ✧ Move 20 feet.
+* ✧ Use one item.  (even if it is in a container)
+* ✧ Aid an ally in a challenge.
+* ✧ Throwing an item to an ally.
+* ✧ Using an simple item, like a lever.
+* 🛡 Add 1 to your damage reduction to one attack.
+
+If a character wishes to perform a creative action, use the following guideline:
+* **1 die** - Something his race, bloodline, class, or profession are likely skilled in.
+* **2 dice** - Something that would be difficult for him to perform.
+* **3 dice** - Something epic.
+
+### Types of Actions
+The action type should be infered by context.
 * **Actions** happen during a character's turn and cost a combat die to perform.
 * **Reactions** happen when it is not a character's turn and cost a combat die to perform.
     *  **Instants** happen just after a specific action happens.
@@ -63,6 +58,15 @@ The health and armor of all participants in a combat are know to all.
     *  Swapping once between your primary melee weapons and your primary ranged weapons.
     *  Getting one item from your inventory.
     *  Anything deemed a free action by your DM.
+
+
+### Called Shots
+A called shot is performed when a character wants to strike a specific spot on an target.  A ✧ combat die must be spent in addition to the ⚔ die in order to perform this action.  The outcome is based on context.
+
+
+### Information
+The level, health, and armor of all participants in a combat are know to all.
+
 
 ### Damage
 * Unarmed attack damage is 1
@@ -75,7 +79,3 @@ Before level adjustments, no attack may receive more than 3 added damage and no 
 
 * **Resistance**:  Reduce the damage by 1.
 * **Vulernability**:  Increase the damage by 1.
-
-
-### Movement
-You may move 20 feet per ✧ used.
