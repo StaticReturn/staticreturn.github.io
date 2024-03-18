@@ -18,7 +18,7 @@ Navigation: [condition tags](#condition-tags)
 
 ### Item Tags
 
-* **Balanced**: 
+* **Balanced**: If an opponent moves away from you melee range you may deal 1 point of damage to him.
 * **Coated**:  This weapon can convey a status effect from a brew.  (sleep, poison, etc)
 * **Damage Reduction**:  Reduce the damage you take by this amount.
 * **Entangle**:  This weapon causes the opponent to be entangled.
@@ -28,10 +28,10 @@ Navigation: [condition tags](#condition-tags)
 * **Long**:  Your close range is 10 feet.
 * **Loud**:  When you roll for stealth, roll at disadvantage.
 * **Medium (length)**:  Once per round you may deal 1 additional point of damage on a hit.
-* **Moderate**:  
+* **Moderate**:
 * **Move Reduction**:  Reduce your move total by these many units.
 * **One Handed**:  This weapon requires one hand to use.
-* **Quick**:  When attacked, you may use a reaction to interrupt an opponent and deal 1 point of damage.
+* **Quick**:  When attacked you may interrupt an opponent and deal 1 point of damage.
 * **Reload**:  This weapon can only be used once per turn.  Reloading takes time.
 * **Shield Bash**:  When attacked, you may use a reaction to shield bash an opponent.  Choose one effect to apply to the opponent:  Knock back 5 feet, deal 1 point of damage, or daze.
 * **Shield Wall**:  Reduce all ranged damage by half.
@@ -41,6 +41,7 @@ Navigation: [condition tags](#condition-tags)
 * **Stealthy**:  Use of this item does not cause a character to loose stealth.
 * **Trip**:  This weapon causes the opponent to be tripped.
 * **Two Handed**:  This weapon requires two hands to use.
+* **Unarmed**:  Unarmed attacks deal 1 point of damage.
 * **Unwieldy**:  All Dexterity challenges are at disadvantage.
 * **Weak Armor**:  If you have not rolled any shields this turn, this armor does not provide any traits.
 * **Weighty**:  Treat your body weight as if it were twice as much as normal.

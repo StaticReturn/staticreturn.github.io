@@ -65,7 +65,11 @@ The health and armor of all participants in a combat are know to all.
     *  Anything deemed a free action by your DM.
 
 ### Damage
-Base damage for all attacks is 3.  For every level your target has less than you, double your damage against it.  For every level your target has more than you, half your damage.  Damage is always round up.
+* Unarmed attack damage is 1
+* Improvised weapon attack damage is 2
+* Weapon and spell attack damage is 3
+
+For every level your target has less than you, double your total damage against it.  For every level your target has more than you, half your total damage.  Damage is always round up.
 
 Before level adjustments, no attack may receive more than 3 added damage and no defense may receive more than 3 damage reduction.  Critical successes break this rule.
 
