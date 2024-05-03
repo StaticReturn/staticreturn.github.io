@@ -31,15 +31,12 @@ When you roll three of the same value you have a **critical success**.  Until yo
 
 
 ### Combat Actions
-A character may only make one attack action during his turn and may use reactions that deal damage.  All characters may do the following:
+You may only attack once during your turn and it does not require you to spend combat dice.  All characters may spend combat dice to do the following:
 
-* ⚔ Attack one target and deal damage.
-* ⚔ ✧ Perform a called shot. 
+* ⚔ Add 1 damage to an attack.
+* ⚔ ✧ Perform a called shot.
 * ✧ Move 20 feet.
-* ✧ Use one item.  (even if it is in a container)
 * ✧ Aid an ally in a challenge.
-* ✧ Throwing an item to an ally.
-* ✧ Using an simple item, like a lever.
 * 🛡 Add 1 to your damage reduction to one attack.
 
 If a character wishes to perform a creative action, use the following guideline:

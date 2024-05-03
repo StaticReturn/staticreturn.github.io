@@ -10,6 +10,10 @@ nav_order: 1
 A person who fights in a trance-life fury.
 
 *  While in combat gain 1 point of damage reduction.
-*  ⚔ When melee attacking in an aggressive or reckless manner add 1 damage.
-*  ✧ After killing an opponent grant taunt to all close range opponents.
-*  🛡 You are immune to any mental condition.
+*  ⚔: When melee attacking in an aggressive or reckless manner add 1 damage.
+*  ⚔: If you killed someone last round, deal 1 extra point of damage.
+*  ✧: After killing an opponent grant taunt to all close range opponents.
+*  🛡: You are immune to any mental condition.
+
+{: .development_note}
+Reckless, agressive.

@@ -8,3 +8,6 @@ nav_order: 5
 
 # Marksman
 A person who is exceptionally accurate and skilled with range weapons.
+
+{: .development_note}
+Ranged fighter, minimize melee, quick.
