@@ -14,8 +14,7 @@ Hit points are an abstract representation of how combat ready a character is, in
 When a character reaches 0 hit points he makes a Constitution challenge at easy difficulty, but receives a -1 to his roll for each wound he has.  If he fails he is dead.  If he succeeds he takes one wound, falls unconscious, and is considered dying.  If he does not receive aid within 3 rounds he will die from his wounds.
 
 ### Dying
-If a dying character is dealt damage by a sentient source he will die.  If a dying character takes damage from a non-sentient source he takes one wound.
-
+If a dying character is dealt damage by a sentient source he will die.
 ### Wounds
 Your wounds may be reduced by one by taking a safe rest.  If you gain four wounds you die.
 

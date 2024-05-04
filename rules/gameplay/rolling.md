@@ -10,7 +10,7 @@ There are two types of rolls used to determin outcomes:  [Combat Rolls]({% link 
 
 
 ### Combat Rolls
-Combat Rolls are rolls made to attack, defend, or otherwise directly affect combat.  They are represented by rolling 3d6.  Spend these dice to perform actions in combat.
+Combat Rolls are rolls made to enhance your actions during combat or enable you to perform reactions.
 
 
 ### Challenge Rolls
@@ -30,10 +30,10 @@ You may not attempt a challenge roll with a difficulty that is more than one ste
 
 
 ### Attempting a Challenge
-Challenges are never a combat action, they are used to see if you can perform a non-combat action.  The TN of a challenge is always 7.  If the difficulty is one step above or below your competence add or subtract 3 to the TN, as approrpiate.  If you are being aided add no more than one to your roll.  If you are being hindered, subtract 1 from your roll.
+The TN of a challenge is always 7.  If the difficulty is one step above or below your competence add or subtract 3 to the TN, as approrpiate.  If you are being aided add no more than one to your roll.  If you are being hindered, subtract 1 from your roll.
 
 ### Aiding and Hindering
-If one or more characters add meaningful help to a challenge, the character is aided.  If one more characters hinder someone performing a challenge, he is hindered.  Do not add up sources of aid and hinderance if both are applied to a roll.  Any amount of aid and hinderance will negate all modifications to the dice result.
+If one or more characters add meaningful help to a challenge, the character is aided.  If one more characters hinder a challenge, he is hindered.  Do not add up sources of aid and hinderance if both are applied to a roll.  Any amount of aid and hinderance will negate all modifications to the dice result.
 
 ### Rolling again, after a failed challenge
 All physical challenges may be repeated as long as the character’s tools and stamina are up to the task.

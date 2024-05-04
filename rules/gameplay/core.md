@@ -13,7 +13,7 @@ Each ability score has a value between -2 and +3. The values loosley correspond 
 * Dexterity
 * Constitution
 * Mind
-* Social Awareness
+* Social
 * Charm
 
 ### Levels
