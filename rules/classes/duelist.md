@@ -9,13 +9,13 @@ nav_order: 3
 # Duelist
 A person who excels at one-on-one combat.
 
-*  ⚔: disarm an opponent who is fighting more than one enemy.
-*  ✧: cause an opponent to retreat.
-*  🛡: Grant 1 point of damage reduction to an ally being attacked.
+*  ⚔: Disarm an opponent who is fighting more than one enemy.
+*  ✧: Cause an opponent to retreat 5 feet.
+*  🛡: Grant 2 points of damage reduction to an ally being attacked.
 *  If you are fighting only one opponent:
-    *  ⚔: disarm an opponent.
+    *  ⚔: Disarm an opponent that has just attacked you.
     *  ✧: Daze an opponent in melee range.
-    *  🛡: Gain 1 point of damage reduction.
+    *  🛡: Gain 2 points of damage reduction.
 
 {: .development_note}
 One-on-one fighting, control this fight, take advantage of a momentary weakness.

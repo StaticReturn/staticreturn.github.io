@@ -1,7 +1,7 @@
 ---
 title: Rolling
 layout: home
-nav_order: 3
+nav_order: 6
 parent: Gameplay
 ---
 
