@@ -9,7 +9,7 @@ gem "just-the-docs"             # always download the latest release
 
 # Bundler
 gem 'nokogiri'
-gem 'rack', '~> 2.2.4'
+gem 'rack', '~> 3.0.11'
 gem 'rspec'
 
 
