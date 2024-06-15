@@ -18,25 +18,23 @@ Navigation: [condition tags](#condition-tags)
 
 ### Item Tags
 
-* **Balanced**: If an opponent moves away from you melee range you may deal 1 point of damage to him.
+* **Balanced**: Add 1 point of damage when performing an attack of opportunity.
 * **Coated**:  This weapon can convey a status effect from a brew.  (sleep, poison, etc)
 * **Damage Reduction**:  Reduce the damage you take by this amount.
 * **Entangle**:  This weapon causes the opponent to be entangled.
 * **Floating Defense**:  You may not be critically hit.
 * **Heavy**:  Once per round you may deal 1 extra point of damage to an opponent you hit with an attack.
 * **Light**:  You may wield two light weapons, one in each hand.
-* **Long**:  Your close range is 10 feet.
+* **Long**:  Your melee weapon has an extra 5 feet of range.
 * **Loud**:  When you roll for stealth, roll at disadvantage.
-* **Medium (length)**:  Once per round you may deal 1 additional point of damage on a hit.
-* **Moderate**:
 * **Move Reduction**:  Reduce your move total by these many units.
 * **One Handed**:  This weapon requires one hand to use.
-* **Quick**:  When attacked you may interrupt an opponent and deal 1 point of damage.
+* **Quick**:  WWhen attacked you may interrupt an opponent and deal 1 point of unreducable damage.
 * **Reload**:  This weapon can only be used once per turn.  Reloading takes time.
-* **Shield Bash**:  When attacked, you may use a reaction to shield bash an opponent.  Choose one effect to apply to the opponent:  Knock back 5 feet, deal 1 point of damage, or daze.
-* **Shield Wall**:  Reduce all ranged damage by half.
-* **Short**:  When within close range you gain 1 damage reduction per round.
-* **Slow**:  You may not be the first in your party to act.  Once per round you get a free called shot.
+* **Shield Bash**:  When attacked, you may use a reaction to shield bash an opponent.  Choose one effect to apply to the opponent:  Knock back 5 feet, deal 2 points of damage, or daze.
+* **Shield Wall**:  You have partial cover.
+* **Short**:  Once per round, when within close range of the damage source you gain 1 damage reduction.
+* **Slow**:  You may not act before at least two opponents have acted. Once per round you get a free called shot.
 * **Stamina**:  At the start of your turn reduce your stamina by this amount.
 * **Stealthy**:  Use of this item does not cause a character to loose stealth.
 * **Trip**:  This weapon causes the opponent to be tripped.

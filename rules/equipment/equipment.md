@@ -8,29 +8,22 @@ has_toc: false
 
 # Equpiment
 
-Navigation: [Ranged Weapons](#ranged-weapons), [Armors](#armors)
 
 ### Melee Weapons
+For each of your melee weapons choose one tag that applies to it.
 
-| Weapon      | Tags                       |
-| ----------- | -------------------------- |
-| Dagger      | Short, Quick, Light        |
-| Shortsword  | Short, Moderate, Balanced  |
-| Longsword   | Medium, Moderate, Balanced |
-| Greatsword  | Long, Slow, Heavy          |
-| Spear       | Long, Quick, Balanced      |
-| Polearm     | Long, Moderate, Heavy      |
-| Handaxe     | Short, Moderate, Balanced  |
-| Battleaxe   | Medium, Moderate, Heavy    |
-| Greataxe    | Long, Slow, Heavy          |
-| Sap         | Short, Quick, Heavy        |
-| Club        | Medium, Moderate, Heavy    |
-| Staff       | Long, Moderate, Balanced   |
-| Maul        | Medium, Moderate, Heavy    |
-| Morningstar | Medium, Slow, Balanced     |
-| Rapier      | Medium, Quick, Light       |
-| Flail       | Medium, Moderate, Balanced |
-| Mace        | Medium, Moderate, Heavy    |
+| Tag      | Description                                                                                          |
+| -------- | ---------------------------------------------------------------------------------------------------- |
+| Balanced | Add 1 point of damage when performing an attack of opportunity.                                      |
+| Heavy    | Once per round you may deal 1 extra point of damage to an opponent you hit with an attack.           |
+| Light    | You may wield two light weapons, one in each hand.                                                   |
+| Long     | Your melee weapon has an extra 5 feet of range.                                                      |
+| Quick    | When attacked you may interrupt an opponent and deal 1 point of unreducable damage.                  |
+| Short    | Once per round, when within close range of the damage source you gain 1 damage reduction.            |
+| Slow     | You may not act before at least two opponents have acted. Once per round you get a free called shot. |
+
+#### Weapon Examples:
+Dagger, Shortsword, Longsword, Greatsword, Spear, Polearm, Handaxe, Battlaxe, Greataxe, Club, Staff, Maul, Morningstar, Rapier, Flail, Mace.
 
 
 ### Ranged Weapons
@@ -45,7 +38,7 @@ Navigation: [Ranged Weapons](#ranged-weapons), [Armors](#armors)
 | Compound Bow   | Long Range, Slow, Heavy, Two Handed             |
 | Bolas          | Short Range, Trip, One Handed                   |
 | Net            | Close Range, Entangle, Two Handed               |
-| Blowgun        | Stealthy, Coated                                |
+| Blowgun        | Short Range, Stealthy, Coated, Two Handed       |
 
 
 ### Armors
@@ -53,8 +46,8 @@ Navigation: [Ranged Weapons](#ranged-weapons), [Armors](#armors)
 | Type          | Traits                                                                    |
 | ------------- | ------------------------------------------------------------------------- |
 | Light Armor   | Move Reduction 1, Damage Reduction 1, Weak Armor                          |
-| Medium Armor  | Move Reduction 2, Loud, Damage Reduction 1, Stamina 5                     |
-| Heavy Armor   | Move Reduction 3, Loud, Unwieldy, Weighty, Damage Reduction 2, Stamina 10 |
+| Medium Armor  | Move Reduction 2, Loud, Damage Reduction 1, Stamina 3                     |
+| Heavy Armor   | Move Reduction 3, Loud, Unwieldy, Weighty, Damage Reduction 2, Stamina 6  |
 | Small Shield  | Floating Defense                                                          |
 | Medium Shield | Shield Bash                                                               |
 | Large Shield  | Shield Wall, Unwieldy                                                     |
