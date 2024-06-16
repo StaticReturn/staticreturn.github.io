@@ -15,6 +15,3 @@ A person who engages in daring adventures with bravado or flamboyance.
 *  You deal 1 extra damage on an attack of opportunity.
 *  ⚔: You may attack an opponent that has performed an attack of opportunity on you.
 *  🛡: You may ignore any effect that forces you to move.
-
-{: .development_note}
-Always moving, bravado, flamboyant, not easily caught

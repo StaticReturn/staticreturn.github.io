@@ -16,6 +16,3 @@ A person who excels at one-on-one combat.
     *  ⚔: Disarm an opponent that has just attacked you if your opponent does not spend 🛡 to resist.
     *  ✧: Daze an opponent in melee range.
     *  🛡: Gain 2 points of damage reduction.
-
-{: .development_note}
-One-on-one fighting, control this fight, take advantage of a momentary weakness.

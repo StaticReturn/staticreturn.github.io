@@ -35,6 +35,9 @@ The TN of a challenge is always 7.  If the difficulty is one step above or below
 ### Aiding and Hindering
 If one or more characters add meaningful help to a challenge, the character is aided.  If one more characters hinder a challenge, he is hindered.  Do not add up sources of aid and hinderance if both are applied to a roll.  Any amount of aid and hinderance will negate all modifications to the dice result.
 
+### Advantage and Disadvantage
+When circumstance greatly affects the results of an outcome, roll with advantage or disadvantage.  Roll one extra die.  When rolling with advantage you may choose the two highest dice.  When rolling with disadvantage you must keep the two lowest dice.
+
 ### Rolling again, after a failed challenge
 All physical challenges may be repeated as long as the character’s tools and stamina are up to the task.
 

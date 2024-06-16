@@ -55,7 +55,7 @@ The action type should be infered by context.
     *  Anything deemed a free action by your DM.
 
 ### Called Shots
-A called shot is performed when a character wants to strike a specific spot on a target.  A ⚔ and ✧ combat die must be spent in order to perform this action.  The outcome is based on context.
+A called shot is performed when a character wants to strike a specific spot on a target.  A ⚔ and ✧ combat die must be spent in order to perform this action.  The outcome is story based and does not grant extra damage.
 
 ### Information
 The level, health, and armor of all participants in a combat are know to all.
@@ -67,13 +67,23 @@ The level, health, and armor of all participants in a combat are know to all.
 
 For every level your target has less than you, double your total damage against it.  For every level your target has more than you, half your total damage.  Damage is always round up.
 
-Before level adjustments, no attack may receive more than 3 added damage and no defense may receive more than 3 damage reduction.  Critical successes break this rule.
+Before level adjustments, no attack may receive more than 3 added damage and no defense may receive more than 3 damage reduction.  Critical hits break this rule.
 
 * **Resistance**:  Reduce the damage by 1.
 * **Vulernability**:  Increase the damage by 1.
+
+### Critical Hits
+If a character rolls three ⚔ for his combat roll he may perform a critical hit.  Deal double damage.
 
 ### Two Weapon Fighting
 If you are weilding two weapons, you may divide your damage between two valid opponents however you would like.
 
 ### Attacks of Opportunity
 If an opponent leaves your threatened space you may spend an action and a ⚔ to deal attack damage to him.
+
+### Ranges
+* **Melee**:  Within 5 feet.
+* **Close**:  Within 10 feet.
+* **Short**:  Within 30 feet.
+* **Long**:  Within 90 feet.
+* **Extended**:  Within 300 feet.

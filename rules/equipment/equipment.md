@@ -51,3 +51,23 @@ Dagger, Shortsword, Longsword, Greatsword, Spear, Polearm, Handaxe, Battlaxe, Gr
 | Small Shield  | Floating Defense                                                          |
 | Medium Shield | Shield Bash                                                               |
 | Large Shield  | Shield Wall, Unwieldy                                                     |
+
+
+### Item Tags
+
+* **Coated**:  This weapon can convey a status effect from a brew.  (sleep, poison, etc)
+* **Damage Reduction**:  Reduce the damage you take by this amount.
+* **Entangle**:  This weapon causes the opponent to be entangled.
+* **Floating Defense**:  You may not be critically hit.
+* **Loud**:  When you roll for stealth, roll at disadvantage.
+* **Move Reduction**:  Reduce your move total by these many units.
+* **Reload**:  This weapon can only be used once per turn.  Reloading takes time.
+* **Shield Bash**:  When attacked, you may use a reaction to shield bash an opponent.  Choose one effect to apply to the opponent:  Knock back 5 feet, deal 2 points of damage, or daze.
+* **Shield Wall**:  You have partial cover.
+* **Stamina**:  At the start of your turn reduce your stamina by this amount.
+* **Stealthy**:  Use of this item does not cause a character to loose stealth.
+* **Trip**:  This weapon causes the opponent to be tripped.
+* **Unarmed**:  Unarmed attacks deal 1 point of damage.
+* **Unwieldy**:  All Dexterity challenges are at disadvantage.
+* **Weak Armor**:  If you have not rolled any shields this turn, this armor does not provide any traits.
+* **Weighty**:  Treat your body weight as if it were twice as much as normal.
