@@ -13,8 +13,6 @@ Each ability score has a value between -2 and +3. The values loosley correspond 
 * Dexterity
 * Constitution
 * Mind
-* Social
-* Charm
 
 ### Levels
 There are five character levels.  Your race, bloodline, class, or profession may give you new abilities as you level up.  Levels are granted by the DM when you complate a story milestone.
