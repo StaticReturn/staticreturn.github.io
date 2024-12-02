@@ -15,7 +15,7 @@ For each of your melee weapons choose one tag that applies to it.
 | Tag      | Description                                                                                          |
 | -------- | ---------------------------------------------------------------------------------------------------- |
 | Balanced | Add 1 point of damage when performing an attack of opportunity.                                      |
-| Heavy    | Once per round you may deal 1 extra point of damage to an opponent you hit with an attack.           |
+| Heavy    | Once per round you may deal 1 extra point of damage to an opponent you hit with your main attack.    |
 | Light    | You may wield two light weapons, one in each hand.                                                   |
 | Long     | Your melee weapon has an extra 5 feet of range.                                                      |
 | Quick    | When attacked you may interrupt an opponent and deal 1 point of unreducable damage.                  |
@@ -66,7 +66,7 @@ Dagger, Shortsword, Longsword, Greatsword, Spear, Polearm, Handaxe, Battlaxe, Gr
 * **Shield Wall**:  You have partial cover.
 * **Stamina**:  At the start of your turn reduce your stamina by this amount.
 * **Stealthy**:  Use of this item does not cause a character to loose stealth.
-* **Trip**:  This weapon causes the opponent to be tripped.
+* **Trip**:  This weapon causes the opponent to become prone.
 * **Unarmed**:  Unarmed attacks deal 1 point of damage.
 * **Unwieldy**:  All Dexterity challenges are at disadvantage.
 * **Weak Armor**:  If you have not rolled any shields this turn, this armor does not provide any traits.

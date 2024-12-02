@@ -9,7 +9,7 @@ nav_order: 14
 You roam the wilds at your leisure.
 
 ### Contacts
-Village People.
+Villagers.
 
 ### Skills
 *  **Ambushing**

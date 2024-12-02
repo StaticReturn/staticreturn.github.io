@@ -29,9 +29,12 @@ Part Human, part animal.  The tables below are guidelines.  You may choose or ro
 
 ### Cause
 
-| **1 - 2** | Random |  There is no clear reason why you changed.             |
-| **3 - 4** | Environment |  A specific environment has somehow changed you.  |
-| **5 - 6** | Deliberate |  Someone changed you for a reason.                 |
+| **1** | Mysterious |  There is no clear reason why you changed.             |
+| **2** | Curse |  A curse is to blame.             |
+| **3** | Environment |  A specific environment has somehow changed you.  |
+| **4** | Environment |  A specific environment has somehow changed you.  |
+| **5** | Deliberate |  Someone changed you for a reason.                 |
+| **6** | Foul Magics |  Magic went awry.                 |
 
 ### Education and Culture
 

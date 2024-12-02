@@ -10,5 +10,5 @@ nav_order: 5
 A person who mixes melee with a tactical use of close-combat spells.
 
 *  ⚔: Perform a short range magic attack that ignores 1 point of non-magical damage reduction.
-*  ✧: Reduce fall damage as if you fell 30 feet less.
+*  ✧: Take no fall damage.
 *  🛡: Reduce the damage to an ally within long range by 1.

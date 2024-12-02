@@ -12,10 +12,10 @@ Your are the unseen that goes where he pleases.
 Merchants, Mercenaries, Militants.
 
 ### Skills
-*  **Awareness**
 *  **Climb**
 *  **Stealth**
 *  **Tracking**
 
 ### Abilities
 *  You are never lost.
+*  You are never surprised.

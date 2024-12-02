@@ -23,17 +23,19 @@ When you first start a game session, roll 3d6.  For every 1-2, you have rolled a
 Before you have rolled your next set of combat dice you may choose to "save" one die from your last roll.  You may then choose to replace any freshly rolled die with your saved die.
 
 ### Critical Success
-When you roll three of the same value you have a **critical success**.  Until your next turn you may choose to make any action a **critical success**.  Critical successes double the damage, block all damage or upgrade the effect of your action.
+When you have three of the same value you have a **critical success**.  Until your next turn you may choose to make any action a **critical success**.  Critical successes double the damage, block all damage or upgrade the effect of your action.
 
 ### Combat Actions
-You get three actions to perform between any of your turns. This may never be reduced below one, unless you are unconcious.
+You get three actions to perform between any of your turns. This may never be reduced below one, unless you are unconcious. Spend a combat die to perform a combat action.  You may spend any type of combat die to perform any action that does not require a specific combat die type.  For example your main attack.
 
-* Only one action may be used to attack during your turn.  This is refered to as your main attack.
-* Any number of actions may be used to move.  Each move action gives you 20 feet of movement.
+Examples of combat actions that cost any type of combat die:
+
+* Your main attack, which may only be used once during your turn.
+* The move action gives you 20 feet of movement.
 * Swap between a set of weapons.
 * Throwing an item to hit a target.
 
-All characters may spend combat dice to do the following:
+Examples of combat actions that cost specific types of combat dice:
 
 * ⚔, ✧: Perform a called shot.
 * ✧: Aid a challenge.
@@ -46,9 +48,7 @@ All characters may spend combat dice to do the following:
 ### Types of Actions
 The action type should be infered by context.
 * **Actions** happen during a character's turn.
-* **Reactions** happen when it is not a character's turn and cost a combat die to perform.
-    *  **Instants** happen just after a specific action happens.
-    *  **Interrupts** happen just before a specific action happens.
+* **Reactions** happen as a response to something happening.
 *  **Free Actions** happen at any point in combat.  
     *  A character speaking.
     *  Getting one item from your inventory.
@@ -63,7 +63,7 @@ The level, health, and armor of all participants in a combat are know to all.
 ### Damage
 * Unarmed attack damage is 1
 * Improvised weapon attack damage is 2
-* Weapon and damage is 3
+* Weapon damage is 3
 
 For every level your target has less than you, double your total damage against it.  For every level your target has more than you, half your total damage.  Damage is always round up.
 
@@ -72,14 +72,13 @@ Before level adjustments, no attack may receive more than 3 added damage and no 
 * **Resistance**:  Reduce the damage by 1.
 * **Vulernability**:  Increase the damage by 1.
 
-### Critical Hits
-If a character rolls three ⚔ for his combat roll he may perform a critical hit.  Deal double damage.
+Critical Successes deal double damage after all modifiers.
 
 ### Two Weapon Fighting
 If you are weilding two weapons, you may divide your damage between two valid opponents however you would like.
 
 ### Attacks of Opportunity
-If an opponent leaves your threatened space you may spend an action and a ⚔ to deal attack damage to him.
+If an opponent leaves your threatened space you may spend a ⚔ to deal attack damage to him.
 
 ### Ranges
 * **Melee**:  Within 5 feet.

@@ -7,7 +7,7 @@ has_toc: false
 ---
 
 # Race
-There are three types of races: common, rare, and monstrous.  Be sure to get approval from your DM before choosing a monstrous race.
+Bloodlines are an optional rule. Check with your DM before you add one to your character.
 
 ### Common Races
 [Dwarf]({% link rules/races/dwarf.md %}), [Elf]({% link rules/races/elf.md %}), [Human]({% link rules/races/human.md %})
