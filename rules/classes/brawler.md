@@ -17,6 +17,3 @@ A person who fights effectivly with his bare fists.
 *  ✧: Daze an opponent.
 *  ✧: Stun a dazed opponent.
 *  🛡: Gain bludgeoning resistance.
-
-{: .development_note}
-Hand-to-hand fighting, grappling, a well trained body.
