@@ -11,5 +11,5 @@ A person who fights in a trance-like fury.
 
 *  While being reckless in combat gain 1 point of damage reduction.
 *  ⚔: When melee attacking in a reckless manner add 1 damage.
-*  ✧: After killing an opponent grant taunt to all close range opponents.
+*  ✧: After killing an opponent grant taunt to all short range opponents.
 *  🛡: You are immune to any mental condition.

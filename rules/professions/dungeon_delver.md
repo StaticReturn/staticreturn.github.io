@@ -17,4 +17,4 @@ Merchants, guides.
 
 ### Dungeon Abilities
 *  When foraging you collect twice as much.
-*  When surprised roll a d6.  On a 5-6 you are not surprised or avoid close effects of a trap.
+*  When surprised roll a d6.  On a 5-6 you are not surprised or avoid melee range effects of a trap.

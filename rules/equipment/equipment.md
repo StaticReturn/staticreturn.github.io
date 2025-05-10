@@ -19,7 +19,7 @@ For each of your melee weapons choose one tag that applies to it.
 | Light    | You may wield two light weapons, one in each hand.                                                   |
 | Long     | Your melee weapon has an extra 5 feet of range.                                                      |
 | Quick    | When attacked you may interrupt an opponent and deal 1 point of unreducable damage.                  |
-| Short    | Once per round, when within close range of the damage source you gain 1 damage reduction.            |
+| Short    | Once per round, when within melee range of the damage source you gain 1 damage reduction.            |
 | Slow     | You may not act before at least two opponents have acted. Once per round you get a free called shot. |
 
 #### Weapon Examples:
@@ -37,7 +37,7 @@ Dagger, Shortsword, Longsword, Greatsword, Spear, Polearm, Handaxe, Battlaxe, Gr
 | Long Bow       | Extended Range, Two Handed                      |
 | Compound Bow   | Long Range, Slow, Heavy, Two Handed             |
 | Bolas          | Short Range, Trip, One Handed                   |
-| Net            | Close Range, Entangle, Two Handed               |
+| Net            | Short Range, Entangle, Two Handed               |
 | Blowgun        | Short Range, Stealthy, Coated, Two Handed       |
 
 

@@ -70,7 +70,7 @@ Part Human, part animal.  The tables below are guidelines.  You may choose or ro
 
 ### Abilities
 
-**Animal Control**  -  You may assert your will upon a number of animals equal to your level and force them to perform simple actions upon your verbal command.  The targets of this ability must be of the same animal type that you are.  They will continue to follow that command for 10 minutes.
+**Animal Control**  -  You may assert your will upon an animal and force them to perform simple actions upon your verbal command.  The targets of this ability must be of the same animal type that you are.  They will continue to follow that command for 10 minutes.
 
 **Animal Speech**  -  You may communicate with animals of your animal type.  Remember, they are still animals with animal intelligence.
 

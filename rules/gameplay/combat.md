@@ -41,7 +41,7 @@ Examples of combat actions that cost specific types of combat dice:
 * ✧: Aid a challenge.
 * ✧: Hinder a challenge.
 * ✧: Move an ally 5 feet.
-* 🛡: Reduce the damage of one attack by 1, targeted to you or an ally, and within melee range.
+* 🛡: Reduce the damage of one attack by 2, targeted to you or an ally, and within melee range.
 
 ### Types of Actions
 The action type should be infered by context.
@@ -77,7 +77,6 @@ If you are wielding two weapons, you may divide your damage between two valid op
 
 ### Ranges
 * **Melee**:  Within 5 feet.
-* **Close**:  Within 10 feet.
 * **Short**:  Within 30 feet.
 * **Long**:  Within 90 feet.
 * **Extended**:  Within 300 feet.
