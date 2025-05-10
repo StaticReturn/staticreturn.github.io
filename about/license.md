@@ -11,6 +11,7 @@ Friday Night Dungeon is licensed under the [Creative Commons BY 4.0 License].
 
 [Creative Commons BY 4.0 License]: https://creativecommons.org/licenses/by/4.0/
 
+
+| Creative Commons BY 4.0 License |
 |--------------------|
 |  You are free to:  |
-|--------------------|
