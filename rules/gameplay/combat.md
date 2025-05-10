@@ -37,14 +37,11 @@ Examples of combat actions that cost any type of combat die:
 
 Examples of combat actions that cost specific types of combat dice:
 
-* ⚔: Perform an attack of opportunity.
 * ⚔, ✧: Perform a called shot.
 * ✧: Aid a challenge.
 * ✧: Hinder a challenge.
 * ✧: Move an ally 5 feet.
 * 🛡: Reduce the damage of one attack by 1, targeted to you or an ally, and within melee range.
-* 🛡: No attacks of opportunity may be performed against you until your next turn.
-
 
 ### Types of Actions
 The action type should be infered by context.
@@ -77,9 +74,6 @@ Critical Successes deal double damage after all modifiers.
 
 ### Two Weapon Fighting
 If you are wielding two weapons, you may divide your damage between two valid opponents however you would like.
-
-### Attacks of Opportunity
-If an opponent leaves your threatened space you may spend a ⚔ to deal attack damage to him.
 
 ### Ranges
 * **Melee**:  Within 5 feet.

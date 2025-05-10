@@ -5,13 +5,13 @@ parent: About
 nav_order: 1
 ---
 
-### Friday Night Dungeon looks to accoplish the following.
+### Friday Night Dungeon looks to accomplish the following:
 * Fun, speedy combat.
 * Roleplay focus.
 * Dangerous.
 
 
-### Compared to 5e.
+### Compared to 5e:
 * Remove turns where a character fails his action and thus does nothing.
 * Better balancing in combats.
 * Less dice rolling.

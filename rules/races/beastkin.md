@@ -90,7 +90,7 @@ Part Human, part animal.  The tables below are guidelines.  You may choose or ro
 
 **Advanced Hearing**  -  You can hear quiet sounds three times better than a human and you can hear sounds that are above and below the human frequency.
 
-**Sonar**  -  You can see shapes by producing a high frequency sound and then listening to its echoes.  You may do this even in darkness or while blinded.
+**Sonar**  -  You can see shapes by producing a high frequency sound and then listening to its echoes.
 
 **Advanced Smell**  -  Your sense of smell is much more developed than a human.  You can identify scents as easily as a human can look at someone and know who they are.  You also can track based on scent.
 

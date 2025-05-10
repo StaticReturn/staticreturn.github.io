@@ -14,7 +14,7 @@ Villagers.
 ### Skills
 *  **Ambushing**
 *  **Hunting**
-*  **Stealth**
+*  **Wilderness Stealth**
 *  **Snares and Traps**
 *  **Tracking**
 *  **Wilderness Survival**

@@ -11,7 +11,5 @@ nav_order: 9
     * Add 1 to Constitution.
     * Subtract 1 from Dexterity.
     * Subtract 2 from Mind.
-    * Subtract 2 from Awareness.
-    * Subtract 2 from Charm.
 * Double your starting hit points.
 * You are considered _large_ in size.

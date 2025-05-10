@@ -14,7 +14,7 @@ For each of your melee weapons choose one tag that applies to it.
 
 | Tag      | Description                                                                                          |
 | -------- | ---------------------------------------------------------------------------------------------------- |
-| Balanced | Add 1 point of damage when performing an attack of opportunity.                                      |
+| Balanced |                                      |
 | Heavy    | Once per round you may deal 1 extra point of damage to an opponent you hit with your main attack.  The opponent must be wearing medium or heavy armor.   |
 | Light    | You may wield two light weapons, one in each hand.                                                   |
 | Long     | Your melee weapon has an extra 5 feet of range.                                                      |

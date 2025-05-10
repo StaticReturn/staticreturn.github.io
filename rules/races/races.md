@@ -7,7 +7,7 @@ has_toc: false
 ---
 
 # Race
-Bloodlines are an optional rule. Check with your DM before you add one to your character.
+Races are an optional rule. Check with your DM before you add one to your character.
 
 ### Common Races
 [Dwarf]({% link rules/races/dwarf.md %}), [Elf]({% link rules/races/elf.md %}), [Human]({% link rules/races/human.md %})
