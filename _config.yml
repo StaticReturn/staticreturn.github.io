@@ -19,3 +19,6 @@ callouts:
     color: purple
   note:
     color: blue
+  development_note:
+    title: Development Note
+    color: yellow
