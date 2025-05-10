@@ -15,7 +15,7 @@ For each of your melee weapons choose one tag that applies to it.
 | Tag      | Description                                                                                          |
 | -------- | ---------------------------------------------------------------------------------------------------- |
 | Balanced | Add 1 point of damage when performing an attack of opportunity.                                      |
-| Heavy    | Once per round you may deal 1 extra point of damage to an opponent you hit with your main attack.    |
+| Heavy    | Once per round you may deal 1 extra point of damage to an opponent you hit with your main attack.  The opponent must be wearing medium or heavy armor.   |
 | Light    | You may wield two light weapons, one in each hand.                                                   |
 | Long     | Your melee weapon has an extra 5 feet of range.                                                      |
 | Quick    | When attacked you may interrupt an opponent and deal 1 point of unreducable damage.                  |
@@ -46,8 +46,8 @@ Dagger, Shortsword, Longsword, Greatsword, Spear, Polearm, Handaxe, Battlaxe, Gr
 | Type          | Traits                                                                    |
 | ------------- | ------------------------------------------------------------------------- |
 | Light Armor   | Move Reduction 1, Damage Reduction 1, Weak Armor                          |
-| Medium Armor  | Move Reduction 2, Loud, Damage Reduction 1, Stamina 3                     |
-| Heavy Armor   | Move Reduction 3, Loud, Unwieldy, Weighty, Damage Reduction 2, Stamina 6  |
+| Medium Armor  | Move Reduction 2, Loud, Damage Reduction 1                                |
+| Heavy Armor   | Move Reduction 3, Loud, Unwieldy, Weighty, Damage Reduction 2             |
 | Small Shield  | Floating Defense                                                          |
 | Medium Shield | Shield Bash                                                               |
 | Large Shield  | Shield Wall, Unwieldy                                                     |
@@ -64,7 +64,6 @@ Dagger, Shortsword, Longsword, Greatsword, Spear, Polearm, Handaxe, Battlaxe, Gr
 * **Reload**:  This weapon can only be used once per turn.  Reloading takes time.
 * **Shield Bash**:  When attacked, you may use a reaction to shield bash an opponent.  Choose one effect to apply to the opponent:  Knock back 5 feet, deal 2 points of damage, or daze.
 * **Shield Wall**:  You have partial cover.
-* **Stamina**:  At the start of your turn reduce your stamina by this amount.
 * **Stealthy**:  Use of this item does not cause a character to loose stealth.
 * **Trip**:  This weapon causes the opponent to become prone.
 * **Unarmed**:  Unarmed attacks deal 1 point of damage.

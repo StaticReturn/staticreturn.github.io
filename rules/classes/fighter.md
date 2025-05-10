@@ -9,7 +9,6 @@ nav_order: 4
 # Fighter
 A person who is familiar with the tools of combat and can extract the most out of them.
 
-* Reduce stamina penalties for wearing armor by 3.
 * Your weapons may have two tags.
 * ⚔, ✧, _long_, _heavy_: Deal two less your normal damage to up to three opponents within melee range.
 * ✧: All opponents that are struck are moved back 1 square.

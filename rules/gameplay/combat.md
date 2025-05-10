@@ -20,7 +20,7 @@ When you first start a game session, roll 3d6.  For every 1-2, you have rolled a
 * 🛡 Are used for defensive actions.
 * ✧ Are used for all other combat actions or challenges.
 
-Before you have rolled your next set of combat dice you may choose to "save" one die from your last roll.  You may then choose to replace any freshly rolled die with your saved die.
+Before you roll your next set of combat dice you may choose to "save" one die from your last roll.  You may then choose to replace any freshly rolled die with your saved die.
 
 ### Critical Success
 When you have three of the same value you have a **critical success**.  Until your next turn you may choose to make any action a **critical success**.  Critical successes double the damage, block all damage or upgrade the effect of your action.
@@ -37,6 +37,7 @@ Examples of combat actions that cost any type of combat die:
 
 Examples of combat actions that cost specific types of combat dice:
 
+* ⚔: Perform an attack of opportunity.
 * ⚔, ✧: Perform a called shot.
 * ✧: Aid a challenge.
 * ✧: Hinder a challenge.
@@ -48,7 +49,7 @@ Examples of combat actions that cost specific types of combat dice:
 ### Types of Actions
 The action type should be infered by context.
 * **Actions** happen during a character's turn.
-* **Reactions** happen as a response to something happening.
+* **Reactions** happen as a response to something occuring.
 *  **Free Actions** happen at any point in combat.  
     *  A character speaking.
     *  Getting one item from your inventory.
@@ -67,7 +68,7 @@ The level, health, and armor of all participants in a combat are know to all.
 
 For every level your target has less than you, double your total damage against it.  For every level your target has more than you, half your total damage.  Damage is always round up.
 
-Before level adjustments, no attack may receive more than 3 added damage and no defense may receive more than 3 damage reduction.  Critical hits break this rule.
+No attack may receive more than 3 added damage and no defense may receive more than 3 damage reduction.  Critical successes break this rule.
 
 * **Resistance**:  Reduce the damage by 1.
 * **Vulernability**:  Increase the damage by 1.
@@ -75,7 +76,7 @@ Before level adjustments, no attack may receive more than 3 added damage and no 
 Critical Successes deal double damage after all modifiers.
 
 ### Two Weapon Fighting
-If you are weilding two weapons, you may divide your damage between two valid opponents however you would like.
+If you are wielding two weapons, you may divide your damage between two valid opponents however you would like.
 
 ### Attacks of Opportunity
 If an opponent leaves your threatened space you may spend a ⚔ to deal attack damage to him.
