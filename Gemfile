@@ -12,5 +12,5 @@ gem 'nokogiri'
 gem 'rack', '~> 3.0.11'
 gem 'rspec'
 
-gem 'wdm', '>= 0.1.0'
-# gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+# gem 'wdm', '>= 0.1.0'
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
