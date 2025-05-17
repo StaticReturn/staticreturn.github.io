@@ -1,12 +1,12 @@
 ---
-title: Magic User
+title: Wizard
 layout: home
 parent: Magic User
 grand_parent: Classes
 nav_order: 1
 ---
 
-# Magic User
+# Wizard
 
 *  **Magic Missile** ⚔:  Preform a long range attack that is always a called shot.
 *  **Explosive Trap** ⚔: Choose a five foot square.  As a free action you may detonate the square to cause damage equal to the mana spent to cast this spell.
