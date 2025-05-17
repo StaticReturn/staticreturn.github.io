@@ -8,12 +8,11 @@ nav_order: 1
 ### Friday Night Dungeon looks to accomplish the following:
 * Fun, speedy combat.
 * Roleplay focus.
-* Dangerous.
 
 
 ### Compared to 5e:
 * Remove turns where a character fails his action and thus does nothing.
 * Better balanced combats.
-* Less dice rolling.
+* Combat should have risk, or at least be non-trivial.
 * Combat consequence shouldn't just be how many HP you lose.
-* There should be some fear in each combat.
+* Less dice rolling.
