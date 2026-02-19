@@ -13,6 +13,3 @@ Each ability score has a value between -2 and +3. The values loosley correspond 
 * Dexterity
 * Constitution
 * Mind
-
-### Hit Points
-All characters start with 16 + 2*(Constitution) hit points.  This value can be modified by your race, bloodline, class, or profession.
