@@ -11,8 +11,8 @@ nav_order: 1
 
 
 ### Compared to 5e:
-* Remove turns where a character fails his action and thus does nothing.
-* Better balanced combats.
-* Combat should have risk, or at least be non-trivial.
-* Combat consequence shouldn't just be how many HP you lose.
+* Overhawl Combat
+    * Funner, Quicker, More Interesting.
+    * Better Balance.
 * Less dice rolling.
+* Simpler.
