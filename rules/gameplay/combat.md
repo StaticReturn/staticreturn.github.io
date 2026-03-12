@@ -8,29 +8,31 @@ parent: Gameplay
 # Combat
 
 ### Combat Order
-Each faction takes turns to have one of it's characters act.  Player factions always go first.  If there is more than one player faction, each player faction rolls an natural d10 to see who acts first.  Ties must reroll against eachother.
+Each faction takes turns to have one of it's characters act.  Player factions always go first.  If there is more than one player faction, each player faction rolls a natural d10 to see who acts first.  Ties must reroll against eachother.
 
 #### Surpise
 If a faction is surprised the ambushing faction all get a chance to act before all others.
 
 ### Actions
-Each player gets three actions per turn.  They may do the following:
+Each player gets one action per round, unless otherwise noted.
+
+He may do the following:
 * **Attack** - Deal a condition to an opponent.
 * **Defend** - Prevent a condition being applied to yourself or another character.
 * **Aid** - Grant a +1 to the challenge roll of another charatcer.
-* **Dash** - Move up to 30 feet.
+* **Dash** - Move up to twice your base movement.
 * **Act** - Anything else that takes time.
 
 ### Free Actions
-* Your character may move up to 15 feet for free between each of his actions.
-* Equip one weapon.  Further weapon swaps cost one **Act** action.
+* You may move your base movement, which is typically 15 feet.
+* Equip one weapon.
 * Say a short phrase.
 
 ### Interuppts
 **Defend**, **Aid**, and **Act** are interuppts and can done just before some type of event occurs.
 
 ### Information
-The conditions, wound status, action economy, and armor of all participants in a combat are know to all.
+The conditions, wound status, action economy, and armor of all participants in a combat are know to all.  Resistances and vulnerabilities may be hidden if the players have never fought against that enemy type before.
 
 ### Critical Success
 
