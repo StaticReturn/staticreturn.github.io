@@ -46,23 +46,24 @@ Part Human, part animal.  The tables below are guidelines.  You may choose or ro
 | 6 | You’ve spent time in all social classes and learned at a center for higher learning.      |
 
 ### Human Likeness
+Choose from below:
 
-#### Hands
+#### **Hands**
 
 **Partial** - You have partially developed hands with an opposable thumb.<br>
 **Full** - You have full use of human-like hands.
 
-#### Speech
+#### **Speech**
 
 **Partial** - You can speak like a human, but it is tiresome.  Anything more than a few words will reveal that you are not human.  You may still make native animal sounds without issue.<br>
 **Full** - You speak like a normal human but can no longer make your native animal sounds.
 
-#### Stance
+#### **Stance**
 
 **Partial** - You can stand like a human for stretches at a time, but are most comfortable in your native stance.<br>
 **Full** - You are most comfortable to stand and move as a human but can, for short periods, move as your native animal.
 
-#### Appearance
+#### **Appearance**
 
 **Partial** - You appear as a clear mix of your native animal and a human.<br>
 **Mostly Human** - You can pass as human at a glance, but there are clear signs you are not human.<br>
@@ -82,7 +83,7 @@ Part Human, part animal.  The tables below are guidelines.  You may choose or ro
 
 **Digging & Tunneling**  -  You can create a 3 foot diameter tunnel at a rate of 1 foot per minute.
 
-**Wings**  -  You can glide.  You can carry up to twice your natural body weight.  If you are weighed down more, you fall instead of glide.
+**Wings**  -  You can glide.  If you are weighed down more than twice your natural body weight you fall instead of glide.
 
 **Far Vision**  -  You may adjust your vision to see as an average human can or magnify your vision up to eight times that of a human.
 

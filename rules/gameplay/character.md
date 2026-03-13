@@ -7,8 +7,11 @@ parent: Gameplay
 
 # Character
 
-# Abilities & Behaviors
-Classes, races, bloodlines, and professions give you active abilities, passive abilities, and behaviors.
+### Abilities & Behaviors
+Classes, races, bloodlines, and professions give you abilities, skills, and behaviors.
 
-# Active Abilities
-Active abilities are things that your character can do sometimes.  An ability that you have to activate, usually paying a cost, use, and then deactivate.  
+#### **Active Abilities**
+Active abilities are things that your character can do sometimes.  An ability that has a cooldown, a set amount of time before it can be used again.
+
+#### **Passive Abilities**
+Passive abilities are "always-on" things that never, or rarely, turn off.

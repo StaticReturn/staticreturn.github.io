@@ -6,11 +6,10 @@ nav_order: 2
 ---
 
 # Dragonbound
-Dragonbound are human sized and shaped, but have the apperances of true dragons.
+Dragonbound are human sized and shaped, but have the apperances of true dragons.  Red is fire, blue is frost, and green is rot.
 
-* Choose a dragon type.
-* You are resistant to your breath weapon damage type.
+* Your coloring is dark red, green, or blue.
+* You are resistant to your breath weapon condition type.
 * You can speak Draconic.
-* You have wings and can glide, as long as you are carrying no more than three times your body weight.
-* ⚔, 5 mana:  You deal 2 damage in a short cone of breath weapon.
-* 🛡, _no armor_: You receive 2 less damage from one attack.
+* You have wings and can glide, as long as you are carrying no more than twice times your body weight.
+* *(1 per combat)* You breath your breath weapon condition in a short cone.

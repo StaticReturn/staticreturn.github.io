@@ -6,9 +6,11 @@ nav_order: 8
 ---
 
 # Minotaur
+Minotaur are a foot taller than humans with the head and tail of a bull.
+
 * **Ability Scores**: 
-    * Add 3 to Strength.
+    * Add 1 to Strength.
     * Add 1 to Constitution.
-    * Add 1 to Dexterity.
-* ⚔, ✧: You charge an opponent and strike him with your head and horns.  He is _prone_ and takes 1 additional point of damage.
-* 🛡: You are not moved by an opponent.
+* You are never lost as long as you are awake to witness your travel.  This is non-magical in nature.
+* *(1 per combat)* You charge an opponent and strike him with your head and horns.  He is _prone_.
+* You are not moved by an opponent of the same size or smaller.

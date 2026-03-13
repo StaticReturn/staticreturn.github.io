@@ -7,8 +7,4 @@ nav_order: 5
 
 # Goblin
 * **Ability Scores**: Add 1 to Dexterity.
-* Gain _nimble_.
-
-{: .ability}
-Nimble ::  your turn  :: 🛡🛡<br>
-You may choose to ignore any one non-spell attack.
+* **1 stamina:** *(Interrupt)* You may choose to ignore a non-spell melee or ranged attack.
