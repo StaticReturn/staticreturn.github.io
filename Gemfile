@@ -14,7 +14,7 @@ gem "just-the-docs"        # always download the latest release
 
 # Bundler
 gem 'nokogiri'
-gem 'rack', '~> 3.2.5'
+gem 'rack', '~> 3.2.6'
 gem 'rspec'
 
 # gem 'wdm', '>= 0.1.0'
