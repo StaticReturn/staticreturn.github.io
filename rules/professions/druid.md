@@ -6,7 +6,7 @@ nav_order: 5
 ---
 
 # Druid
-You are a child of the wildernes first, the beasts your true family.
+You are a child of the wildernes first, the wild and the beasts your true family.
 
 ### Skills
 *  **Wilderness Survival**

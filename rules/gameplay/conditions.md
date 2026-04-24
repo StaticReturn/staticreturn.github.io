@@ -13,12 +13,13 @@ Conditions last until the begining of your turn.  If you have at least as many c
 * **Ablaze**:
 * **Blinded**: -1 Defense.
 * **Dazed**: You cannot inturrupt.
-* **Entangled**: ½ Movement.
 * **Exhausted**: 
 * **Fear**:
 * **Frozen**:
 * **Grappled**: -1 Defense.
 * **Off Balance**:
 * **Prone**:
+* **Slowed**: ½ Movement.
 * **Stunned**: You go last in your party's initiative order.
 * **Tauned**: You must attack a particular target.
+* **Unarmmed**: You have no weapon in your hands.

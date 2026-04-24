@@ -16,7 +16,6 @@ If a faction is surprised the ambushing faction all get a chance to act before a
 ### Actions
 Each player gets one action per round, unless otherwise noted.
 
-He may do the following:
 * **Attack** - Deal a condition to an opponent.
 * **Defend** - Prevent a condition or wound from being applied to yourself or another character.
 * **Aid** - Grant a +1 to the challenge roll of another charatcer.
@@ -24,15 +23,19 @@ He may do the following:
 * **Act** - Anything else that takes time.
 
 ### Free Actions
+Free actions may be taken at any time, but each free action may only be taken once per round.
 * You may move your base movement, which is typically 15 feet.
 * Equip one weapon.
 * Say a short phrase.
 
-### Interuppts
-**Defend**, **Aid**, and **Act** are interuppts and can done just before some type of event occurs.
+### Delayed Actions
+Any action may be delayed until a pre-specified event is about to happen.  It then takes place just before the triggering action occurs or as it is just starting to occur.  You may not take a delayed action and then start your turn, at least one other character must act in between your delayed action and your turn.  Delayed actions can break the combat order rule, any number of characters on the same faction may act if thier actions are delayed.
 
 ### Information
 The conditions, wound status, action economy, and defense of all participants in a combat are know to all.  Resistances, vulnerabilities, skills, and abilities may be hidden if the players have never fought against that enemy type before.
+
+### Turns & Rounds
+A turn is the time when a single character may act.  A round is time in which all characters may have taken a turn before they may potentially get thier turn again.
 
 ### Critical Success
 

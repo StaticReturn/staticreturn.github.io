@@ -1,1 +1,6 @@
 https://www.boardgamesmaker.com/print/wooden-engraved-d6-dice-16mm-white.html
+
+gem update --system
+gem update
+bundle install
+bundle exec jekyll serve

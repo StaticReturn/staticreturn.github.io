@@ -10,9 +10,11 @@ A veteran of many public fights, a former slave.
 
 ### Skills
 *  **Equipment Appraisal**
+*  **Knowledge: Combat**
+*  **Knowledge: Combat Equipment**
 *  **Knowledge: Monsters**
 
 ### Abilities
-*  When surprised roll a d6.  On a 5-6 you are not surprised.
+*  When surprised in combat roll a d6.  On a 5-6 you are not surprised.
 *  When a target enters your melee range you may pay a ⚔ to make an attack.
 *  Once per safe rest, when your hit points would drop to 0 they drop to 1 instead.

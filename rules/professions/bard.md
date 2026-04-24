@@ -9,7 +9,7 @@ nav_order: 3
 A musician, an entertainer, a peddler of rumor and knowledge.
 
 ### Contacts
-Bards, merchants, minor nobles, acting troupes.
+Actors, artists, bards, merchants, musicians, minor nobles.
 
 ### Skills
 *  **Music**
