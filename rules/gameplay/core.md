@@ -8,7 +8,8 @@ parent: Gameplay
 # Core
 
 ### Abilities Scores
-Each ability score has a value between -2 and +3. The values loosley correspond with the following:  -2: Disabled, -1: Poor, +0: Average, +1: Better Than Most, +2: Example to All, +3: World Champion
+Ability scores represent the physical and methal attributes of your character.  All characters are athletes with good minds.  Flaws and races may modify theses.  To distinguish characters, they may have a number attached to each score.  If the number is positive the player may choose to reroll any roll related to that ability score that many times per game.  If the number is negative the player always subtracts that amount from his rolls.
+
 * Strength
 * Dexterity
 * Constitution
