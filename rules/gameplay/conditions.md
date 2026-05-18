@@ -1,25 +1,31 @@
 ---
-title: Conditions
+title: Conditions, Wounds
 layout: home
 nav_order: 3
 parent: Gameplay
 ---
 
-# Conditions
+# Conditions & Wounds
 Conditions last until the begining of your turn.  If you have at least as many conditions as your defense you reiceve wounds instead.
 
-### Condition Tags
+### All condition categories are as follows:
+* Movement
+* Perception
+* Attack
+* Defense
 
-* **Ablaze**:
-* **Blinded**: -1 Defense.
-* **Dazed**: You cannot inturrupt.
-* **Exhausted**: 
-* **Fear**:
-* **Frozen**:
-* **Grappled**: -1 Defense.
-* **Off Balance**:
-* **Prone**:
-* **Slowed**: ½ Movement.
-* **Stunned**: You go last in your party's initiative order.
-* **Tauned**: You must attack a particular target.
-* **Unarmmed**: You have no weapon in your hands.
+### Condition Examples
+* Blinded, Dazed, Grappled, Prone, Off Balance,
+
+# Wounds
+A wound is a long term condition that affects that character's options.  Once per hour you may remove a wound of your choice.
+
+### Condition Examples
+* **Crippled**
+* **Damaged Eye**
+* **Damaged Limb or Apendage**
+* **Gut Wound**
+* **Lung Wound**
+* **Severed Muscle**
+* **Severed Artery**
+* **Shattered Bones**

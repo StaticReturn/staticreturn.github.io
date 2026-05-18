@@ -37,6 +37,13 @@ The conditions, wound status, action economy, and defense of all participants in
 ### Turns & Rounds
 A turn is the time when a single character may act.  A round is time in which all characters may have taken a turn before they may potentially get thier turn again.
 
+### Damage
+A character always imposes a change of state in the combat when attacking.  He will either impose a condition or a wound on an opponent.  Conditions are short changes to the status of a character, such as being temporarily off balance.  A wound is a long term condition, such as losing the use of a limb.
+
+Each attack causes a condition.  If the target's defense is equal to the number of conditions he arleady has just before the attack, then the target takes a wound instead.  For each wound inflicted the target loses a hit point.  When a target has zero hit points he dies.
+
+The defend action, special abilities, and resistances may cause your attack to not inflict a condition.
+
 ### Critical Success
 
 ### Called Shots
