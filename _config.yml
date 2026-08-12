@@ -22,3 +22,6 @@ callouts:
   development_note:
     title: Development Note
     color: yellow
+
+# Site favicon
+favicon_ico: "/assets/images/favicon.ico"
