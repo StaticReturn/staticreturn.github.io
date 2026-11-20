@@ -27,7 +27,7 @@ jobs:
       # A failing test stops the deploy, so a broken build never reaches the live site
       - run: npm test
       - run: npm run build
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
