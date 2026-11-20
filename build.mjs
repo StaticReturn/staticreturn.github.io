@@ -2,14 +2,11 @@
 // Navigation comes from each page's front matter: title, parent, grand_parent, nav_order.
 import fs from 'node:fs';
 import path from 'node:path';
-import { marked, Parser, Renderer } from 'marked';
+import { marked, Parser } from 'marked';
 
 const ROOT = import.meta.dirname;
 const SITE = 'Friday Night Dungeon';
 const CALLOUTS = { warning: 'Warning', development_note: 'Development Note' };
-const SYM = '(?:⚔|✧|🛡)\\uFE0F?';
-// A bullet that opens with combat symbols: "* ⚔, ✧: text", "* 🛡, _shield_: text", "* **Name** ⚔: text"
-const MOVE = new RegExp(`^(\\s*)[*-]\\s+(\\*\\*[^*]+\\*\\*\\s+)?(${SYM}(?:\\s*(?:,|\\+|or)?\\s*${SYM})*)(?:\\s*,\\s*(_[^_]+_))?\\s*:\\s*(.*)$`, 'gmu');
 
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 const plain = (html) => html.replace(/<\/?(?:p|br|li|ul|ol|div|aside|table|tr|td|th|h\d)\b[^>]*>/g, ' ').replace(/<[^>]+>/g, '')
@@ -75,25 +72,7 @@ function prep(page, bySrc) {
     // kramdown "{: .name}" marks the paragraph after it as a callout. The blank lines make marked parse the inside as markdown.
     .replace(/^\{:\s*\.(\w+)\s*\}[ \t]*\r?\n((?:.+(?:\r?\n|$))+)/gm, (m, name, text) =>
       `<aside class="callout ${name}" data-label="${esc(CALLOUTS[name] ?? name.replace(/_/g, ' '))}">\n\n${text}\n\n</aside>\n\n`)
-    .replace(MOVE, (m, indent, name, syms, tag, rest) => {
-      // U+FE0E asks for the text (not emoji) glyph, so the symbol takes the ink colour
-      const cell = syms.replace(/️|,/g, '').replace(/\s+/g, ' ').replace(/(⚔|✧|🛡)/gu, '$1︎');
-      return `${indent}* <span class="syms">${cell}</span> ${name ? name.trim() + ': ' : ''}${tag ? tag + ': ' : ''}${rest}`;
-    })
     .replace(/(⚔|✧|🛡)️?(?!︎)/gu, '<span class="sym">$1︎</span>');
-}
-
-function markMoves(tokens) {
-  let any = false;
-  for (const t of tokens) {
-    if (t.type !== 'list') continue;
-    for (const item of t.items) {
-      if (item.text.startsWith('<span class="syms">')) t.moves = true;
-      if (markMoves(item.tokens)) t.moves = item.cond = true;
-    }
-    any ||= !!t.moves;
-  }
-  return any;
 }
 
 // :name: in markdown draws assets/icons/name.svg; unknown names stay as text.
@@ -117,8 +96,6 @@ marked.use({
       return `<h${t.depth} id="${t.id}"${num}><a href="${t.href ?? '#' + t.id}">${inner}</a></h${t.depth}>\n`;
     },
     paragraph(t) { return `<p${t.lede ? ' class="lede"' : ''}>${this.parser.parseInline(t.tokens)}</p>\n`; },
-    list(t) { const html = Renderer.prototype.list.call(this, t); return t.moves ? html.replace('<ul>', '<ul class="moves">') : html; },
-    listitem(t) { const html = Renderer.prototype.listitem.call(this, t); return t.cond ? html.replace('<li>', '<li class="cond">') : html; },
   },
 });
 
@@ -158,7 +135,6 @@ function renderBody(page, bySrc) {
   }
   page.numbered = n > 0;
 
-  markMoves(tokens);
   page.html = marked.parser(tokens)
     .replace(/<table>/g, '<div class="tw" tabindex="0" role="region" aria-label="Table"><table>')
     .replace(/<\/table>/g, '</table></div>');

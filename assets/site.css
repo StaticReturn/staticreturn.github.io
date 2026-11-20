@@ -83,16 +83,8 @@ tbody tr:nth-child(even) td { background: var(--band); }
 .callout.warning { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 600; }
 .callout.warning::before { color: inherit; }
 
-/* Move lists: bullet items that start with combat symbols become ruled rows with the symbols in a left cell */
-.sym, .syms { font-family: "Noto Sans Symbols 2", "Segoe UI Symbol", "Apple Symbols", "DejaVu Sans", sans-serif; font-variant-emoji: text; }
-.body ul.moves { list-style: none; padding: 0; margin-top: 2px; }
-.moves > li { position: relative; min-height: 60px; margin-top: -2px; padding: 14px 16px 14px 104px; border: 2px solid var(--ink); }
-.moves > li::before { content: ""; position: absolute; left: 88px; top: 0; bottom: 0; border-left: 2px solid var(--ink); }
-.moves > li > p { margin: 0; }
-.moves .syms { position: absolute; left: 0; top: 14px; width: 88px; display: flex; justify-content: center; gap: 4px; font-size: 26px; line-height: 1.2; }
-.moves > li.cond { padding: 14px 16px; background: var(--band); font-weight: 600; }
-.moves > li.cond::before { display: none; }
-.moves > li.cond > ul { margin: 12px 0 0; background: var(--bg); font-weight: 400; }
+/* Combat symbols in prose: text (not emoji) glyphs so they take the ink colour */
+.sym { font-family: "Noto Sans Symbols 2", "Segoe UI Symbol", "Apple Symbols", "DejaVu Sans", sans-serif; font-variant-emoji: text; }
 
 /* Contents block on pages with children */
 .toc { list-style: none; margin: 48px 0 0; padding: 0; border-bottom: 4px solid var(--ink); }
@@ -120,8 +112,8 @@ tbody tr:nth-child(even) td { background: var(--band); }
 .body .sheet .num { margin: 0 0 10px; padding: 0; border: 0; font-size: 14px; font-stretch: 100%; line-height: 1.9; color: var(--accent); }
 .sheet .num::before { display: none; }
 .sheet section:not(:has(ul)) > * { margin: 0; }
-.body .sheet ul:not(.moves) { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); }
-.sheet ul:not(.moves) > li { padding: 10px 0; border-bottom: 2px solid var(--ink); }
+.body .sheet ul { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); }
+.sheet ul > li { padding: 10px 0; border-bottom: 2px solid var(--ink); }
 
 /* Prev / next */
 .pn { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin-top: 64px; border: 4px solid var(--ink); }
@@ -148,15 +140,13 @@ tbody tr:nth-child(even) td { background: var(--band); }
   .body .lede { font-size: 21px; }
   .body .num, .body h2 { font-size: 29px; } .body h3 { font-size: 25px; }
   .toc b { font-size: 24px; } .toc a { grid-template-columns: 56px 1fr; }
-  .moves > li { padding-left: 76px; } .moves > li::before { left: 60px; }
-  .moves .syms { width: 60px; font-size: 20px; gap: 1px; }
 }
 @media print {
   :root, :root[data-theme="dark"], :root:not([data-theme="light"]) { --bg: #fff; --ink: #000; --accent: #000; --on-accent: #fff; --band: #eee; }
   .top, .pn, .skip, .otp, .rail { display: none; }
   main { padding: 0; max-width: none; }
   h1 { font-size: 40pt; }
-  .tw, .callout, .moves > li { break-inside: avoid; }
+  .tw, .callout { break-inside: avoid; }
   .body :is(h2, h3, h4) { break-after: avoid; }
 }
 
@@ -164,7 +154,6 @@ tbody tr:nth-child(even) td { background: var(--band); }
 .tools { display: none; }
 .js .tools { display: flex; }
 .tabs, .band { position: relative; }
-.moves > li { overflow-wrap: anywhere; }
 
 /* Local icons: masked SVGs in /assets/icons, coloured by the text colour. */
 .icon::before{content:"";display:inline-block;width:1em;height:1em;margin-right:.15em;vertical-align:-.125em;background:currentColor;-webkit-mask:var(--icon) center/contain no-repeat;mask:var(--icon) center/contain no-repeat}
