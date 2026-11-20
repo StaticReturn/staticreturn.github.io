@@ -8,7 +8,7 @@ parent: Gameplay
 # Combat
 
 ### Combat Order
-Each faction takes turns to have one of its characters act.  Player factions always go first.  If there is more than one player faction, each player faction rolls a natural d10 to see who acts first.  Ties must reroll against each other.
+Each faction takes turns to have one of its characters act.  Player factions always go first.  If there is more than one player faction, each player faction rolls a natural d10 to see who acts first.  Tied factions reroll against each other.
 
 #### **Surprise**
 If a faction is surprised the ambushing faction all get a chance to act before all others.

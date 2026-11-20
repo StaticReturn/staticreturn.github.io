@@ -11,7 +11,7 @@ Your class describes how you fight, the system and style by which you approach c
 
 ### Melee
 These classes do best in the thick of combat.<br>
-_Berzerker, Brawler, Duelist, Fighter, Marksman, Spell Sword, Swashbuckler_
+_Berzerker, Brawler, Duelist, Fighter, Marksman, Spellsword, Swashbuckler_
 
 ### Strategist
 These classes rely on movement, skill, and ability to affect combat.<br>

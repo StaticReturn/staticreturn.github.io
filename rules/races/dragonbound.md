@@ -11,5 +11,5 @@ Dragonbound are human sized and shaped, but have the appearances of true dragons
 * Your coloring is dark red, green, or blue.
 * You are resistant to your breath weapon condition type.
 * You can speak Draconic.
-* You have wings and can glide, as long as you are carrying no more than twice times your body weight.
+* You have wings and can glide, as long as you are carrying no more than twice your body weight.
 * *(1 per combat)* You breathe your breath weapon condition in a short cone.

@@ -97,7 +97,7 @@ Choose from below:
 
 **Tremor Sense**  -  You can feel vibrations through the ground.
 
-**Hold Breath**  -  You can hold your breath for 30 minutes if you move minably.  You can hold your breath for 10 minutes if you only lightly exert yourself.
+**Hold Breath**  -  You can hold your breath for 30 minutes if you move minimally.  You can hold your breath for 10 minutes if you only lightly exert yourself.
 
 **Natural Body Armor**  -  You gain 1 point of damage reduction.
 

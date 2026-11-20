@@ -33,7 +33,7 @@ Social challenges may be repeated at the discretion of the dungeon master, who w
 Social challenges are not rolled, but described and narrated by the player and dungeon master.  It should be an interaction.
 
 #### **Social Challenge System: Easy**
-First, a player should tell the dungeon master what he is trying to accomplish. Then the dungeon master should consider the disposition of the NPC(s) and tell the player the difficulty level of the goal.  Then the character should interact with the NPC(s), role-play, until the scenario is finish and the DM tells the player the outcome of his efforts.
+First, a player should tell the dungeon master what he is trying to accomplish. Then the dungeon master should consider the disposition of the NPC(s) and tell the player the difficulty level of the goal.  Then the character should interact with the NPC(s), role-play, until the scenario is finished and the DM tells the player the outcome of his efforts.
 
 #### **Social Challenge System: Normal**
 The character should interact with the NPC(s) and the DM will judge the character's effectiveness.  In these cases the DM will not refer to rules about how hard the task is or how close the character is to obtaining his goal.
