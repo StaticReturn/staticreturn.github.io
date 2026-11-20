@@ -98,8 +98,8 @@ tbody tr:nth-child(even) td { background: var(--band); }
 .toc small { grid-column: 2; font-size: 16px; line-height: 1.4; }
 
 /* Gameplay, profession, class and race pages: sibling rail beside a compact sheet (Contacts row, then list sections in columns) */
-.railed { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 32px 48px; padding-top: 40px; }
-.railed article { flex: 999 1 560px; min-width: 0; }
+.railed { max-width: none; display: flex; flex-wrap: wrap; align-items: flex-start; gap: 32px 48px; padding-top: 40px; }
+.railed article { flex: 999 1 560px; min-width: 0; max-width: 1120px; }
 .rail { flex: 1 1 220px; display: flex; flex-wrap: wrap; gap: 2px; background: var(--ink); border: 2px solid var(--ink); font-size: 17px; }
 .rail a { flex: 1 1 200px; display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 8px 14px; background: var(--bg); text-decoration: none; font-weight: 600; line-height: 1.25; }
 .rail span { flex: none; width: 44px; font-size: 12px; }
@@ -129,6 +129,8 @@ tbody tr:nth-child(even) td { background: var(--band); }
   .body.numbered { padding-left: 180px; }
   .body .num { margin-left: -180px; padding-left: 180px; }
   .num::before { position: absolute; left: 0; top: 20px; }
+  /* Side by side from here up: the rail keeps its width at the page's left edge and follows the scroll */
+  .rail { flex: 0 0 220px; position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow-y: auto; }
 }
 @media (max-width: 700px) {
   .bar { padding: 14px 16px; } .brand { font-size: 22px; }
