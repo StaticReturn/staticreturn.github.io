@@ -49,3 +49,9 @@ test(':icon: shortcodes render as local icons, unknown names stay text', () => {
   assert.ok(html.includes('<i class="icon" style="--icon:url(/assets/icons/swords.svg)" aria-hidden="true"></i>'));
   assert.ok(!html.includes(':swords:'));
 });
+
+test('headings named after child pages link to them instead of repeating a contents list', () => {
+  const html = read('rules/classes/parents/classes.html');
+  assert.match(html, /id="strategist"[^>]*><a href="\/rules\/classes\/parents\/strategist.html"/);
+  assert.doesNotMatch(html, /class="toc/);
+});

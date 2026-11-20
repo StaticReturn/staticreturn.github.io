@@ -114,7 +114,7 @@ marked.use({
       const inner = this.parser.parseInline(t.tokens);
       if (!t.id) return `<h${t.depth}>${inner}</h${t.depth}>\n`;
       const num = t.n ? ` class="num" data-n="${t.n}"` : '';
-      return `<h${t.depth} id="${t.id}"${num}><a href="#${t.id}">${inner}</a></h${t.depth}>\n`;
+      return `<h${t.depth} id="${t.id}"${num}><a href="${t.href ?? '#' + t.id}">${inner}</a></h${t.depth}>\n`;
     },
     paragraph(t) { return `<p${t.lede ? ' class="lede"' : ''}>${this.parser.parseInline(t.tokens)}</p>\n`; },
     list(t) { const html = Renderer.prototype.list.call(this, t); return t.moves ? html.replace('<ul>', '<ul class="moves">') : html; },
@@ -150,6 +150,9 @@ function renderBody(page, bySrc) {
     for (let i = 2; used.has(id); i++) id = `${slugify(text)}-${i}`;
     used.add(id);
     h.id = id;
+    // A heading named after a child page links to it, and that child leaves the contents list
+    const child = page.children.find((c) => c.title.toLowerCase() === text.toLowerCase());
+    if (child) { h.href = child.url; child.inBody = true; }
     if (h.depth === level) h.n = `${page.num}.${++n}`;
     page.heads.push({ id, text, n: h.n });
   }
@@ -176,6 +179,7 @@ function template(page, site) {
   const longest = Math.max(...page.h1.split(/\s+/).map((w) => w.length));
   const size = `font-size: max(28px, min(${Math.min(6, 80 / longest).toFixed(1)}vw, 58px))`;
   const i = flat.indexOf(page);
+  const toc = page.children.filter((c) => !c.inBody);
   const prev = flat[i - 1], next = i >= 0 ? flat[i + 1] : null;
   const numbered = page.heads.filter((h) => h.n);
   const otp = numbered.length >= 4 ? `<details class="otp"><summary>On this page</summary><ol>${numbered.map((h) => `<li><a href="#${h.id}">${esc(h.text)}</a></li>`).join('')}</ol></details>\n` : '';
@@ -218,7 +222,7 @@ ${label ? `<p class="label">${esc(label)}</p>` : ''}
 <h1 style="${size}">${esc(page.h1)}</h1>
 <div class="body${page.numbered ? ' numbered' : ''}">
 ${otp && lede ? page.html.replace('</p>\n', '</p>\n' + otp) : otp + page.html}</div>
-${page.children.length ? `<ol class="toc${page.children.length > 8 ? ' wide' : ''}">\n${page.children.map((c) => `<li><a href="${c.url}"><span class="n">${c.num}</span><b>${esc(c.title)}</b>${c.summary ? `<small>${esc(c.summary.length > 110 ? c.summary.slice(0, 107).trimEnd() + '…' : c.summary)}</small>` : ''}</a></li>`).join('\n')}\n</ol>` : ''}
+${toc.length ? `<ol class="toc${toc.length > 8 ? ' wide' : ''}">\n${toc.map((c) => `<li><a href="${c.url}"><span class="n">${c.num}</span><b>${esc(c.title)}</b>${c.summary ? `<small>${esc(c.summary.length > 110 ? c.summary.slice(0, 107).trimEnd() + '…' : c.summary)}</small>` : ''}</a></li>`).join('\n')}\n</ol>` : ''}
 ${prev || next ? `<nav class="pn" aria-label="Previous and next page">
 ${prev ? `<a href="${prev.url}"><span>← ${prev.num} Previous</span><b>${esc(prev.title)}</b></a>` : '<span></span>'}
 ${next ? `<a class="next" href="${next.url}"><span>${next.num} Next →</span><b>${esc(next.title)}</b></a>` : ''}
