@@ -29,6 +29,8 @@ Part Human, part animal.  The tables below are guidelines.  You may choose or ro
 
 ### Cause
 
+| d6    | Cause       | Description |
+| ----- | ----------- | ----------- |
 | **1** | Mysterious |  There is no clear reason why you changed.             |
 | **2** | Curse |  A curse is to blame.             |
 | **3** | Environment |  A specific environment has somehow changed you.  |
@@ -38,12 +40,14 @@ Part Human, part animal.  The tables below are guidelines.  You may choose or ro
 
 ### Education and Culture
 
-| 1 | You've had little to no contact with society                                              |
-| 2 | You’ve learned some things by skulking around the fringes of society.                     |
-| 3 | You’re familiar with the culture and general knowledge of a small village.                |
-| 4 | You’ve had a mentor teach you in depth in some subjects but are unfamiliar with others.   |
-| 5 | You’ve had a chance to live in a city for some time and are equal to any of its citizens. |
-| 6 | You’ve spent time in all social classes and learned at a center for higher learning.      |
+| d6    | Description |
+| ----- | ----------- |
+| **1** | You've had little to no contact with society                                              |
+| **2** | You’ve learned some things by skulking around the fringes of society.                     |
+| **3** | You’re familiar with the culture and general knowledge of a small village.                |
+| **4** | You’ve had a mentor teach you in depth in some subjects but are unfamiliar with others.   |
+| **5** | You’ve had a chance to live in a city for some time and are equal to any of its citizens. |
+| **6** | You’ve spent time in all social classes and learned at a center for higher learning.      |
 
 ### Human Likeness
 Choose from below:
