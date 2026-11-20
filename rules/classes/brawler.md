@@ -7,7 +7,7 @@ nav_order: 2
 ---
 
 # Brawler
-A person who fights effectivly with his bare fists.
+A person who fights effectively with his bare fists.
 
 *  Your unarmed attacks deal 3 points of damage.
 *  You cannot be dazed.

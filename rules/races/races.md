@@ -20,4 +20,4 @@ Races are an optional rule. Check with your DM before you add one to your charac
 [Goblin]({% link rules/races/goblin.md %}), 
 [Itthik]({% link rules/races/itthik.md %}), 
 [Minotaur]({% link rules/races/minotaur.md %}),
-[Orc]({% link rules/races/orc.md %})c
+[Orc]({% link rules/races/orc.md %})

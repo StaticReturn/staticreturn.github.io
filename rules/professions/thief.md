@@ -6,7 +6,7 @@ nav_order: 17
 ---
 
 # Thief
-An assiciate of the criminal underworld.
+An associate of the criminal underworld.
 
 ### Contacts
 Fences, information brokers, minor corrupt officials, safe houses.
@@ -15,5 +15,5 @@ Fences, information brokers, minor corrupt officials, safe houses.
 *  **Climb**
 *  **Pick Locks**
 *  **Pick Pockets**
-*  **Slight of Hand**
+*  **Sleight of Hand**
 *  **Stealth**

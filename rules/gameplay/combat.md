@@ -8,9 +8,9 @@ parent: Gameplay
 # Combat
 
 ### Combat Order
-Each faction takes turns to have one of it's characters act.  Player factions always go first.  If there is more than one player faction, each player faction rolls a natural d10 to see who acts first.  Ties must reroll against eachother.
+Each faction takes turns to have one of its characters act.  Player factions always go first.  If there is more than one player faction, each player faction rolls a natural d10 to see who acts first.  Ties must reroll against each other.
 
-#### **Surpise**
+#### **Surprise**
 If a faction is surprised the ambushing faction all get a chance to act before all others.
 
 ### Actions
@@ -18,7 +18,7 @@ Each player gets one action per round, unless otherwise noted.
 
 * **Attack** - Deal a condition to an opponent.
 * **Defend** - Prevent a condition or wound from being applied to yourself or another character.
-* **Aid** - Grant a +1 to the challenge roll of another charatcer.
+* **Aid** - Grant a +1 to the challenge roll of another character.
 * **Dash** - Move up to twice your base movement.
 * **Act** - Anything else that takes time.
 
@@ -29,18 +29,18 @@ Free actions may be taken at any time, but each free action may only be taken on
 * Say a short phrase.
 
 ### Delayed Actions
-Any action may be delayed until a pre-specified event is about to happen.  It then takes place just before the triggering action occurs or as it is just starting to occur.  You may not take a delayed action and then start your turn, at least one other character must act in between your delayed action and your turn.  Delayed actions can break the combat order rule, any number of characters on the same faction may act if thier actions are delayed.
+Any action may be delayed until a pre-specified event is about to happen.  It then takes place just before the triggering action occurs or as it is just starting to occur.  You may not take a delayed action and then start your turn, at least one other character must act in between your delayed action and your turn.  Delayed actions can break the combat order rule, any number of characters on the same faction may act if their actions are delayed.
 
 ### Information
-The conditions, wound status, action economy, and defense of all participants in a combat are know to all.  Resistances, vulnerabilities, skills, and abilities may be hidden if the players have never fought against that enemy type before.
+The conditions, wound status, action economy, and defense of all participants in a combat are known to all.  Resistances, vulnerabilities, skills, and abilities may be hidden if the players have never fought against that enemy type before.
 
 ### Turns & Rounds
-A turn is the time when a single character may act.  A round is time in which all characters may have taken a turn before they may potentially get thier turn again.
+A turn is the time when a single character may act.  A round is time in which all characters may have taken a turn before they may potentially get their turn again.
 
 ### Damage
 A character always imposes a change of state in the combat when attacking.  He will either impose a condition or a wound on an opponent.  Conditions are short changes to the status of a character, such as being temporarily off balance.  A wound is a long term condition, such as losing the use of a limb.
 
-Each attack causes a condition.  If the target's defense is equal to the number of conditions he arleady has just before the attack, then the target takes a wound instead.  For each wound inflicted the target loses a hit point.  When a target has zero hit points he dies.
+Each attack causes a condition.  If the target's defense is equal to the number of conditions he already has just before the attack, then the target takes a wound instead.  For each wound inflicted the target loses a hit point.  When a target has zero hit points he dies.
 
 The defend action, special abilities, and resistances may cause your attack to not inflict a condition.
 

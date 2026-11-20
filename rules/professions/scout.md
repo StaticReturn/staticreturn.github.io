@@ -6,7 +6,7 @@ nav_order: 16
 ---
 
 # Scout
-Your are the unseen that goes where he pleases.
+You are the unseen that goes where he pleases.
 
 ### Contacts
 Merchants, Mercenaries, Militants.

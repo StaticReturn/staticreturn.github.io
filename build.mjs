@@ -160,9 +160,9 @@ function template(page, site) {
   const trail = [];
   for (let p = page.parent; p; p = p.parent) trail.unshift(p.title);
   const label = page.home || page.notFound ? '' : page.parent ? `${trail.join(' · ')} · ${page.num}` : `Section ${page.num}`;
-  // Title size from its longest word, so no word is wider than the column (about 0.77em per letter at this weight and width)
+  // Title size shrinks for long words so none is wider than the column (wide letters run close to 1em each)
   const longest = Math.max(...page.h1.split(/\s+/).map((w) => w.length));
-  const size = `font-size: max(28px, min(${Math.min(11, 100 / longest).toFixed(1)}vw, ${Math.round(Math.min(page.h1.length > 20 ? 96 : 168, 1300 / longest))}px))`;
+  const size = `font-size: max(28px, min(${Math.min(6, 80 / longest).toFixed(1)}vw, 72px))`;
   const i = flat.indexOf(page);
   const prev = flat[i - 1], next = i >= 0 ? flat[i + 1] : null;
   const numbered = page.heads.filter((h) => h.n);

@@ -6,7 +6,7 @@ has_children: true
 has_toc: false
 ---
 
-# Equpiment
+# Equipment
 
 
 ### Melee Weapons
@@ -64,7 +64,7 @@ Dagger, Shortsword, Longsword, Greatsword, Spear, Polearm, Handaxe, Battlaxe, Gr
 * **Reload**:  This weapon can only be used once per turn.  Reloading takes time.
 * **Shield Bash**:  When attacked, you may use a reaction to shield bash an opponent.  Choose one effect to apply to the opponent:  Knock back 5 feet, deal 2 points of damage, or daze.
 * **Shield Wall**:  You have partial cover.
-* **Stealthy**:  Use of this item does not cause a character to loose stealth.
+* **Stealthy**:  Use of this item does not cause a character to lose stealth.
 * **Trip**:  This weapon causes the opponent to become prone.
 * **Unarmed**:  Unarmed attacks deal 1 point of damage.
 * **Unwieldy**:  All Dexterity challenges are at disadvantage.

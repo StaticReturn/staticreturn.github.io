@@ -7,8 +7,8 @@ parent: Gameplay
 
 # Conditions, Impairments, & Wounds
 
-## Conditionsn
-Conditions last until the beginning of your turn.  If you have at least as many conditions as your defense you reiceve wounds instead.
+## Conditions
+Conditions last until the beginning of your turn.  If you have at least as many conditions as your defense you receive wounds instead.
 
 ### Condition categories are as follows:
 * Movement
@@ -22,7 +22,7 @@ Conditions last until the beginning of your turn.  If you have at least as many 
 
 
 ## Impairments
-Instead of inflicting a wound, you may inflict an impairement.  Impairments last until the beginning of your turn.
+Instead of inflicting a wound, you may inflict an impairment.  Impairments last until the beginning of your turn.
 
 ### Impairment List
 * Unarmed
@@ -36,7 +36,7 @@ A wound is a long term condition that affects that character's options.  Once pe
 ### Wound Examples
 * Crippled
 * Damaged Eye
-* Damaged Limb or Apendage
+* Damaged Limb or Appendage
 * Gut Wound
 * Lung Wound
 * Severed Muscle

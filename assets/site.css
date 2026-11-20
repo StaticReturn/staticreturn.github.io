@@ -48,7 +48,7 @@ input:focus-visible { outline-offset: -6px; }
 /* Page */
 main { max-width: 1120px; margin: 0 auto; padding: 56px 40px 72px; }
 .label { font-size: 15px; color: var(--accent); margin: 0 0 20px; }
-h1 { margin: 0 0 24px; font-weight: 900; font-stretch: 125%; line-height: 0.88; text-transform: uppercase; letter-spacing: -0.03em; overflow-wrap: anywhere; }
+h1 { margin: 0 0 24px; font-weight: 900; font-stretch: 125%; line-height: 0.95; text-transform: uppercase; letter-spacing: -0.03em; overflow-wrap: anywhere; }
 .body > p, .body > ul, .body > ol, .body > blockquote, .body > .callout { max-width: 68ch; }
 .body p, .body ul, .body ol { margin: 0 0 20px; }
 .body .lede { font-size: 26px; line-height: 1.35; font-weight: 500; max-width: 34em; margin-bottom: 40px; }
