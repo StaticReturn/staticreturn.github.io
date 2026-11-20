@@ -46,7 +46,7 @@ input:focus-visible { outline-offset: -6px; }
 .band .k { font-size: 12px; }
 
 /* Page */
-main { max-width: 1120px; margin: 0 auto; padding: 56px 40px 72px; }
+main { max-width: 1120px; margin: 0; padding: 56px 40px 72px; }
 .label { font-size: 15px; color: var(--accent); margin: 0 0 20px; }
 h1 { margin: 0 0 24px; font-weight: 900; font-stretch: 125%; line-height: 0.95; text-transform: uppercase; letter-spacing: -0.03em; overflow-wrap: anywhere; }
 .body p, .body ul, .body ol { margin: 0 0 20px; }
