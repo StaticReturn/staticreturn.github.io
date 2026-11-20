@@ -1,6 +1,5 @@
 ---
 title: Explorer
-layout: home
 parent: Professions
 nav_order: 6
 ---
@@ -12,12 +11,12 @@ An explorer of the dangerous unknown and sometimes treasure hunter.
 Merchants, guides, guilds.
 
 ### Skills
-*  **Knowledge: Land History**
-*  **Knowledge: Terrain**
-*  **Knowledge: Monsters**
-*  **Wilderness Survival**
+* **Knowledge: Land History**
+* **Knowledge: Terrain**
+* **Knowledge: Monsters**
+* **Wilderness Survival**
 
 ### Abilities
-*  You are never lost.
-*  You are twice as likely to find shelter.
-*  When surprised roll a d6.  On a 5-6 you are not surprised or avoid melee range effects of a trap.
+* You are never lost.
+* You are twice as likely to find shelter.
+* When surprised roll a d6.  On a 5-6 you are not surprised or avoid melee range effects of a trap.

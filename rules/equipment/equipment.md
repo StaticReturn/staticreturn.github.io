@@ -1,13 +1,9 @@
 ---
 title: Equipment
-layout: home
 nav_order: 7
-has_children: true
-has_toc: false
 ---
 
 # Equipment
-
 
 ### Melee Weapons
 For each of your melee weapons choose one tag that applies to it.
@@ -18,13 +14,12 @@ For each of your melee weapons choose one tag that applies to it.
 | Heavy    | Once per round you may deal 1 extra point of damage to an opponent you hit with your main attack.  The opponent must be wearing medium or heavy armor.   |
 | Light    | You may wield two light weapons, one in each hand.                                                   |
 | Long     | Your melee weapon has an extra 5 feet of range.                                                      |
-| Quick    | When attacked you may interrupt an opponent and deal 1 point of unreducable damage.                  |
+| Quick    | When attacked you may interrupt an opponent and deal 1 point of unreducible damage.                  |
 | Short    | Once per round, when within melee range of the damage source you gain 1 damage reduction.            |
 | Slow     | You may not act before at least two opponents have acted. Once per round you get a free called shot. |
 
-#### Weapon Examples:
-Dagger, Shortsword, Longsword, Greatsword, Spear, Polearm, Handaxe, Battlaxe, Greataxe, Club, Staff, Maul, Morningstar, Rapier, Flail, Mace.
-
+#### Weapon Examples
+Dagger, Shortsword, Longsword, Greatsword, Spear, Polearm, Handaxe, Battleaxe, Greataxe, Club, Staff, Maul, Morningstar, Rapier, Flail, Mace.
 
 ### Ranged Weapons
 
@@ -40,7 +35,6 @@ Dagger, Shortsword, Longsword, Greatsword, Spear, Polearm, Handaxe, Battlaxe, Gr
 | Net            | Short Range, Entangle, Two Handed               |
 | Blowgun        | Short Range, Stealthy, Coated, Two Handed       |
 
-
 ### Armors
 
 | Type          | Traits                                                                    |
@@ -51,7 +45,6 @@ Dagger, Shortsword, Longsword, Greatsword, Spear, Polearm, Handaxe, Battlaxe, Gr
 | Small Shield  | Floating Defense                                                          |
 | Medium Shield | Shield Bash                                                               |
 | Large Shield  | Shield Wall, Unwieldy                                                     |
-
 
 ### Item Tags
 

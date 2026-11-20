@@ -1,9 +1,6 @@
 ---
 title: Bloodlines
-layout: home
 nav_order: 6
-has_children: true
-has_toc: false
 ---
 
 # Bloodlines
@@ -14,4 +11,3 @@ Mortal, Undead, Dhampir, Fey, Planar, Devil, Elemental, Shadow, Vampire, Lycan, 
 ## NOTES
 ### Fated
 Borrow luck.  Take risks, and depending on the severity you can store that luck to use later.
-

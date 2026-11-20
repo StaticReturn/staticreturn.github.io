@@ -1,6 +1,5 @@
 ---
 title: Elf
-layout: home
 parent: Races
 nav_order: 4
 ---

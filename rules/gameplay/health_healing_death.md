@@ -1,6 +1,5 @@
 ---
 title: Health, Healing, Death
-layout: home
 nav_order: 5
 parent: Gameplay
 ---

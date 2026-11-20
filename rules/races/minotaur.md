@@ -1,6 +1,5 @@
 ---
 title: Minotaur
-layout: home
 parent: Races
 nav_order: 8
 ---
@@ -8,7 +7,7 @@ nav_order: 8
 # Minotaur
 Minotaur are a foot taller than humans with the head and tail of a bull.
 
-* **Ability Scores**: 
+* **Ability Scores**:
     * Add 1 to Strength.
     * Add 1 to Constitution.
 * You are never lost as long as you are awake to witness your travel.  This is non-magical in nature.

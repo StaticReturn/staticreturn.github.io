@@ -1,6 +1,5 @@
 ---
 title: Goblin
-layout: home
 parent: Races
 nav_order: 5
 ---

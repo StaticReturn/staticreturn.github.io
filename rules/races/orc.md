@@ -1,6 +1,5 @@
 ---
 title: Orc
-layout: home
 parent: Races
 nav_order: 9
 ---

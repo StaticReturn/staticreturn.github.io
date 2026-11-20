@@ -1,14 +1,11 @@
 ---
 title: Classes
-layout: home
 nav_order: 3
-has_children: true
-has_toc: false
 ---
 
 # Class
 Your class describes how you fight, the system and style by which you approach combat.  There are three broad categories for fighting styles.
-Each class has 4 abilities they can use once per round at no cost.  
+Each class has 4 abilities they can use once per round at no cost.
 
 ### Close Combat
 These classes do best in the thick of combat.<br>

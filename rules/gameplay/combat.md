@@ -1,6 +1,5 @@
 ---
 title: Combat
-layout: home
 nav_order: 2
 parent: Gameplay
 ---
@@ -10,7 +9,7 @@ parent: Gameplay
 ### Combat Order
 Each faction takes turns to have one of its characters act.  Player factions always go first.  If there is more than one player faction, each player faction rolls a natural d10 to see who acts first.  Tied factions reroll against each other.
 
-#### **Surprise**
+#### Surprise
 If a faction is surprised the ambushing faction all get a chance to act before all others.
 
 ### Actions
@@ -44,8 +43,9 @@ Each attack causes a condition.  If the target's defense is equal to the number 
 
 The defend action, special abilities, and resistances may cause your attack to not inflict a condition.
 
-### Vulnerabilities & Resitances
-All players who have a vulnerability or resistance apply a -1 or +1 of damage.<br><br>
+### Vulnerabilities & Resistances
+All players who have a vulnerability or resistance apply a -1 or +1 of damage.
+
 All monsters who have a vulnerability or resistance apply halving or doubling of damage.
 
 ### Critical Hits

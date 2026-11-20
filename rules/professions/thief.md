@@ -1,6 +1,5 @@
 ---
 title: Thief
-layout: home
 parent: Professions
 nav_order: 17
 ---
@@ -12,8 +11,8 @@ An associate of the criminal underworld.
 Fences, information brokers, minor corrupt officials, safe houses.
 
 ### Skills
-*  **Climb**
-*  **Pick Locks**
-*  **Pick Pockets**
-*  **Sleight of Hand**
-*  **Stealth**
+* **Climb**
+* **Pick Locks**
+* **Pick Pockets**
+* **Sleight of Hand**
+* **Stealth**

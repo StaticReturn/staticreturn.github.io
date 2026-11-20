@@ -1,6 +1,5 @@
 ---
 title: Human
-layout: home
 parent: Races
 nav_order: 6
 ---

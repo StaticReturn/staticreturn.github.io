@@ -1,6 +1,5 @@
 ---
 title: Mariner
-layout: home
 parent: Professions
 nav_order: 9
 ---
@@ -12,7 +11,7 @@ You're a master of ocean and sea travel.
 Coastal Villagers, Dockhands, Mariners, Merchants.
 
 ### Skills
-*  **Sailing**
-*  **Ship Maintenance & Repair**
-*  **Knowledge: Oceanic Navigation**
-*  **Oceanic Survival**
+* **Sailing**
+* **Ship Maintenance & Repair**
+* **Knowledge: Oceanic Navigation**
+* **Oceanic Survival**

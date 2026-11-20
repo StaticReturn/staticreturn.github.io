@@ -1,13 +1,9 @@
 ---
 title: Magic
-layout: home
-nav_order: 7
-has_children: true
-has_toc: false
+nav_order: 8
 ---
 
 # Magic
-
 
 ### Range
 
@@ -15,7 +11,7 @@ has_toc: false
 | ----- | ----------- |
 | 0 | Short Range |
 | 3 | Long Range  |
-| 9 | Extreme Range  |
+| 9 | Extended Range  |
 
 ### Mana Recovery
 6 hours of rest restores all your mana.

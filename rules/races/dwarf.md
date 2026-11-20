@@ -1,6 +1,5 @@
 ---
 title: Dwarf
-layout: home
 parent: Races
 nav_order: 3
 ---

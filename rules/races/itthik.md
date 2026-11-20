@@ -1,6 +1,5 @@
 ---
 title: Itthik
-layout: home
 parent: Races
 nav_order: 7
 ---

@@ -1,6 +1,5 @@
 ---
 title: Beastkin
-layout: home
 parent: Races
 nav_order: 1
 ---
@@ -52,22 +51,22 @@ Part Human, part animal.  The tables below are guidelines.  You may choose or ro
 ### Human Likeness
 Choose from below:
 
-#### **Hands**
+#### Hands
 
 **Partial** - You have partially developed hands with an opposable thumb.<br>
 **Full** - You have full use of human-like hands.
 
-#### **Speech**
+#### Speech
 
 **Partial** - You can speak like a human, but it is tiresome.  Anything more than a few words will reveal that you are not human.  You may still make native animal sounds without issue.<br>
 **Full** - You speak like a normal human but can no longer make your native animal sounds.
 
-#### **Stance**
+#### Stance
 
 **Partial** - You can stand like a human for stretches at a time, but are most comfortable in your native stance.<br>
 **Full** - You are most comfortable to stand and move as a human but can, for short periods, move as your native animal.
 
-#### **Appearance**
+#### Appearance
 
 **Partial** - You appear as a clear mix of your native animal and a human.<br>
 **Mostly Human** - You can pass as human at a glance, but there are clear signs you are not human.<br>
@@ -83,7 +82,7 @@ Choose from below:
 
 **Claws**  -  Your claws may be used as a weapon with the following traits:  _Quick_, _Light_.
 
-**Teeth & Tusks**  -  Your teeth may be used as a weapon with the following traits:  _Heavy_, _Grapple_ 
+**Teeth & Tusks**  -  Your teeth may be used as a weapon with the following traits:  _Heavy_, _Grapple_.
 
 **Digging & Tunneling**  -  You can create a 3 foot diameter tunnel at a rate of 1 foot per minute.
 

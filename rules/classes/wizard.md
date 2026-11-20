@@ -1,6 +1,5 @@
 ---
 title: Wizard
-layout: home
 parent: Magic User
 grand_parent: Classes
 nav_order: 1
@@ -9,7 +8,8 @@ nav_order: 1
 # Wizard
 Spells, but at a price.  Wizards all have vulnerability to physical damage.  Wizards all start at 20 mana.
 
-Spells
+### Spells
+
 | Cost  | Name       | Description |
 | ----- | ----------- | ----------- |
 | **1** | Magic Missile |  Perform a long range attack that is always a called shot. |

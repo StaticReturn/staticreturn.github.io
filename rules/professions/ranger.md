@@ -1,6 +1,5 @@
 ---
 title: Ranger
-layout: home
 parent: Professions
 nav_order: 14
 ---
@@ -12,9 +11,9 @@ You roam the wilds at your leisure.
 Villagers.
 
 ### Skills
-*  **Ambushing**
-*  **Hunting**
-*  **Wilderness Stealth**
-*  **Snares and Traps**
-*  **Tracking**
-*  **Wilderness Survival**
+* **Ambushing**
+* **Hunting**
+* **Wilderness Stealth**
+* **Snares and Traps**
+* **Tracking**
+* **Wilderness Survival**

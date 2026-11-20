@@ -1,6 +1,5 @@
 ---
 title: Dragonbound
-layout: home
 parent: Races
 nav_order: 2
 ---

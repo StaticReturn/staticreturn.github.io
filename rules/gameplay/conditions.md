@@ -1,6 +1,5 @@
 ---
 title: Conditions, Wounds
-layout: home
 nav_order: 3
 parent: Gameplay
 ---
@@ -13,9 +12,8 @@ Conditions last until the beginning of your turn.  If you have at least as many 
 ### Condition Examples
 * Blinded, Dazed, Prone, Off Balance.
 
-
 ## Wounds
-A wound is a long term condition that affects that character's options.  Once per hour players may remove a wound of his choice.
+A wound is a long term condition that affects that character's options.  Once per hour a player may remove a wound of his choice.
 
 ### Wound Examples
 * Crippled

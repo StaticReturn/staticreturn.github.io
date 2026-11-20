@@ -1,6 +1,5 @@
 ---
 title: Scout
-layout: home
 parent: Professions
 nav_order: 16
 ---
@@ -12,10 +11,10 @@ You are the unseen that goes where he pleases.
 Merchants, Mercenaries, Militants.
 
 ### Skills
-*  **Climb**
-*  **Stealth**
-*  **Tracking**
+* **Climb**
+* **Stealth**
+* **Tracking**
 
 ### Abilities
-*  You are never lost.
-*  You are never surprised.
+* You are never lost.
+* You are never surprised.
