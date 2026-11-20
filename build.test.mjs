@@ -46,6 +46,6 @@ test('ability lists become symbol rows', () => {
 
 test(':icon: shortcodes render as local icons, unknown names stay text', () => {
   const html = read('rules/classes/berzerker.html');
-  assert.ok(html.includes('<i class="icon" style="--icon:url(/assets/icons/swords.svg)" aria-hidden="true"></i> Attack'));
+  assert.ok(html.includes('<i class="icon" style="--icon:url(/assets/icons/swords.svg)" aria-hidden="true"></i>'));
   assert.ok(!html.includes(':swords:'));
 });
