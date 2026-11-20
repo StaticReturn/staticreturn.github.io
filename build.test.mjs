@@ -58,7 +58,15 @@ test('profession pages use the sibling rail and a sectioned sheet', () => {
   assert.doesNotMatch(html, /class="(band|pn|label)"/);
   assert.equal(html.match(/<section>/g).length, 3);
   assert.match(read('rules/professions/professions.html'), /class="band"/);
-  assert.doesNotMatch(read('rules/races/human.html'), /class="rail"/);
+  assert.doesNotMatch(read('rules/gameplay/character.html'), /class="rail"/);
+});
+
+test('race pages get the rail but keep numbered sections and tables', () => {
+  const html = read('rules/races/beastkin.html');
+  assert.match(html, /<nav class="rail" aria-label="Races pages">/);
+  assert.match(html, /<div class="body numbered">/);
+  assert.match(html, /<details class="otp">/);
+  assert.doesNotMatch(html, /class="(band|pn|label|sheet)"/);
 });
 
 test('class pages keep the group band and list their group in the rail', () => {

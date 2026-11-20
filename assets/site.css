@@ -97,7 +97,7 @@ tbody tr:nth-child(even) td { background: var(--band); }
 .toc b { font-weight: 900; font-stretch: 110%; font-size: 32px; line-height: 1.05; text-transform: uppercase; overflow-wrap: anywhere; }
 .toc small { grid-column: 2; font-size: 16px; line-height: 1.4; }
 
-/* Profession and class pages: sibling rail beside a compact sheet (Contacts row, then list sections in columns) */
+/* Profession, class and race pages: sibling rail beside a compact sheet (Contacts row, then list sections in columns) */
 .railed { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 32px 48px; padding-top: 40px; }
 .railed article { flex: 999 1 560px; min-width: 0; }
 .rail { flex: 1 1 220px; display: flex; flex-wrap: wrap; gap: 2px; background: var(--ink); border: 2px solid var(--ink); font-size: 17px; }

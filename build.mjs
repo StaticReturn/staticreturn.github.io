@@ -160,11 +160,12 @@ function template(page, site) {
   const numbered = page.heads.filter((h) => h.n);
   const otp = numbered.length >= 4 ? `<details class="otp"><summary>On this page</summary><ol>${numbered.map((h) => `<li><a href="#${h.id}">${esc(h.text)}</a></li>`).join('')}</ol></details>\n` : '';
   const lede = page.html.startsWith('<p class="lede">');
-  // Profession and class pages are short: a side rail of siblings replaces their band, the label and
-  // prev/next, and each h3 section is wrapped so CSS can set the list sections side by side
-  const rail = ['Professions', 'Classes'].includes(section.title) && page.parent && !page.children.length;
+  // Profession, class and race pages: a side rail of siblings replaces their band, the label and prev/next
+  const rail = ['Professions', 'Classes', 'Races'].includes(section.title) && page.parent && !page.children.length;
+  // Profession pages only: each h3 section is wrapped so CSS can set the list sections side by side
+  const sheeted = rail && section.title === 'Professions';
   const [intro, ...secs] = page.html.split(/(?=<h3 )/);
-  const sheet = !secs.length ? page.html : `${intro}<div class="sheet">\n${secs.map((s) => `<section>\n${s}</section>`).join('\n')}\n</div>\n`;
+  const sheet = `${intro}<div class="sheet">\n${secs.map((s) => `<section>\n${s}</section>`).join('\n')}\n</div>\n`;
   const tabCurrent = (p) => (p === section && !page.notFound ? (p === page ? ' aria-current="page"' : ' aria-current="true"') : '');
 
   return `<!doctype html>
@@ -202,8 +203,8 @@ ${group?.children.length && !rail ? `<nav class="band" aria-label="${esc(group.t
 ${rail ? `<nav class="rail" aria-label="${esc(page.parent.title)} pages">\n${page.parent.children.map((p) => `<a href="${p.url}"${p === page ? ' aria-current="page"' : ''}><span>${p.num}</span>${esc(p.title)}</a>`).join('\n')}\n</nav>\n<article id="main">` : ''}
 ${label && !rail ? `<p class="label">${esc(label)}</p>` : ''}
 <h1 style="${size}">${esc(page.h1)}</h1>
-<div class="body${page.numbered && !rail ? ' numbered' : ''}">
-${rail ? sheet : otp && lede ? page.html.replace('</p>\n', '</p>\n' + otp) : otp + page.html}</div>
+<div class="body${page.numbered && !sheeted ? ' numbered' : ''}">
+${sheeted ? sheet : otp && lede ? page.html.replace('</p>\n', '</p>\n' + otp) : otp + page.html}</div>
 ${toc.length ? `<ol class="toc${toc.length > 8 ? ' wide' : ''}">\n${toc.map((c) => `<li><a href="${c.url}"><span class="n">${c.num}</span><b>${esc(c.title)}</b>${c.summary ? `<small>${esc(c.summary.length > 110 ? c.summary.slice(0, 107).trimEnd() + '…' : c.summary)}</small>` : ''}</a></li>`).join('\n')}\n</ol>` : ''}
 ${(prev || next) && !rail ? `<nav class="pn" aria-label="Previous and next page">
 ${prev ? `<a href="${prev.url}"><span>← ${prev.num} Previous</span><b>${esc(prev.title)}</b></a>` : '<span></span>'}
