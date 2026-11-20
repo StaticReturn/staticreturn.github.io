@@ -8,8 +8,9 @@ has_toc: false
 
 # Class
 Your class describes how you fight, the system and style by which you approach combat.  There are three broad categories for fighting styles.
+Each class has 4 abilities they can use once per round at no cost.  
 
-### Melee
+### Close Combat
 These classes do best in the thick of combat.<br>
 _Berzerker, Brawler, Duelist, Fighter, Marksman, Spellsword, Swashbuckler_
 

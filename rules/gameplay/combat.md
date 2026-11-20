@@ -44,11 +44,15 @@ Each attack causes a condition.  If the target's defense is equal to the number 
 
 The defend action, special abilities, and resistances may cause your attack to not inflict a condition.
 
-### Critical Success
+### Critical Hits
 
 ### Called Shots
 
 ### Two Weapon Fighting
+
+### Cover
+* **Partial Cover**:
+* **Full Cover**:
 
 ### Ranges
 * **Melee**:  Within 5 feet.
