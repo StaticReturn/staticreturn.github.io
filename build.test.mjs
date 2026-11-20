@@ -55,3 +55,12 @@ test('headings named after child pages link to them instead of repeating a conte
   assert.match(html, /id="strategist"[^>]*><a href="\/rules\/classes\/parents\/strategist.html"/);
   assert.doesNotMatch(html, /class="toc/);
 });
+
+test('profession pages use the sibling rail and a sectioned sheet', () => {
+  const html = read('rules/professions/knight.html');
+  assert.match(html, /<nav class="rail"[^>]*>\n(<a [^\n]+\n){6}<a href="\/rules\/professions\/knight\.html" aria-current="page"><span>4\.7<\/span>Knight<\/a>/);
+  assert.doesNotMatch(html, /class="(band|pn|label)"/);
+  assert.equal(html.match(/<section>/g).length, 3);
+  assert.match(read('rules/professions/professions.html'), /class="band"/);
+  assert.doesNotMatch(read('rules/classes/duelist.html'), /class="rail"/);
+});

@@ -184,6 +184,11 @@ function template(page, site) {
   const numbered = page.heads.filter((h) => h.n);
   const otp = numbered.length >= 4 ? `<details class="otp"><summary>On this page</summary><ol>${numbered.map((h) => `<li><a href="#${h.id}">${esc(h.text)}</a></li>`).join('')}</ol></details>\n` : '';
   const lede = page.html.startsWith('<p class="lede">');
+  // Profession pages are short: a side rail of siblings replaces the band, label and prev/next,
+  // and each h3 section is wrapped so CSS can set the list sections side by side
+  const rail = section.title === 'Professions' && page.parent === section;
+  const [intro, ...secs] = page.html.split(/(?=<h3 )/);
+  const sheet = `${intro}<div class="sheet">\n${secs.map((s) => `<section>\n${s}</section>`).join('\n')}\n</div>\n`;
   const tabCurrent = (p) => (p === section && !page.notFound ? (p === page ? ' aria-current="page"' : ' aria-current="true"') : '');
 
   return `<!doctype html>
@@ -214,19 +219,21 @@ function template(page, site) {
 <nav class="tabs" aria-label="Sections">
 ${top.map((p) => `<a href="${p.url}"${tabCurrent(p)}>${p.num} ${esc(p.title)}</a>`).join('\n')}
 </nav>
-${section.children.length && !page.notFound ? `<nav class="band" aria-label="${esc(section.title)} pages">\n${section.children.map((p) => link(p, p === group ? null : page).replace('<a ', p === group && p !== page ? '<a aria-current="true" ' : '<a ')).join('\n')}\n</nav>` : ''}
+${section.children.length && !page.notFound && !rail ? `<nav class="band" aria-label="${esc(section.title)} pages">\n${section.children.map((p) => link(p, p === group ? null : page).replace('<a ', p === group && p !== page ? '<a aria-current="true" ' : '<a ')).join('\n')}\n</nav>` : ''}
 ${group?.children.length ? `<nav class="band" aria-label="${esc(group.title)} pages">\n${group.children.map((p) => link(p, page)).join('\n')}\n</nav>` : ''}
 </header>
-<main id="main">
-${label ? `<p class="label">${esc(label)}</p>` : ''}
+<main${rail ? ' class="railed"' : ' id="main"'}>
+${rail ? `<nav class="rail" aria-label="${esc(section.title)} pages">\n${section.children.map((p) => `<a href="${p.url}"${p === page ? ' aria-current="page"' : ''}><span>${p.num}</span>${esc(p.title)}</a>`).join('\n')}\n</nav>\n<article id="main">` : ''}
+${label && !rail ? `<p class="label">${esc(label)}</p>` : ''}
 <h1 style="${size}">${esc(page.h1)}</h1>
-<div class="body${page.numbered ? ' numbered' : ''}">
-${otp && lede ? page.html.replace('</p>\n', '</p>\n' + otp) : otp + page.html}</div>
+<div class="body${page.numbered && !rail ? ' numbered' : ''}">
+${rail ? sheet : otp && lede ? page.html.replace('</p>\n', '</p>\n' + otp) : otp + page.html}</div>
 ${toc.length ? `<ol class="toc${toc.length > 8 ? ' wide' : ''}">\n${toc.map((c) => `<li><a href="${c.url}"><span class="n">${c.num}</span><b>${esc(c.title)}</b>${c.summary ? `<small>${esc(c.summary.length > 110 ? c.summary.slice(0, 107).trimEnd() + '…' : c.summary)}</small>` : ''}</a></li>`).join('\n')}\n</ol>` : ''}
-${prev || next ? `<nav class="pn" aria-label="Previous and next page">
+${(prev || next) && !rail ? `<nav class="pn" aria-label="Previous and next page">
 ${prev ? `<a href="${prev.url}"><span>← ${prev.num} Previous</span><b>${esc(prev.title)}</b></a>` : '<span></span>'}
 ${next ? `<a class="next" href="${next.url}"><span>${next.num} Next →</span><b>${esc(next.title)}</b></a>` : ''}
 </nav>` : ''}
+${rail ? '</article>' : ''}
 </main>
 </body>
 </html>
