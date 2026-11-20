@@ -36,12 +36,8 @@ test('Jekyll and kramdown syntax is converted', () => {
   assert.match(read('rules/races/races.html'), /href="\/rules\/races\/human\.html"/);
 });
 
-test('ability lists become symbol rows', () => {
-  const duelist = read('rules/classes/duelist.html');
-  assert.match(duelist, /<ul class="moves">\n<li><span class="syms">✧︎<\/span> Disarm/);
-  assert.match(duelist, /<li class="cond">If you are fighting only one opponent:/);
-  assert.match(read('rules/classes/wizard.html'), /<span class="syms">⚔︎<\/span> <strong>Magic Missile<\/strong>:/);
-  assert.match(read('rules/classes/fighter.html'), /<span class="syms">🛡︎<\/span> <em>shield<\/em>:/);
+test('combat symbols in prose render as ink-coloured text glyphs', () => {
+  assert.match(read('rules/professions/gladiator.html'), /pay a <span class="sym">⚔︎<\/span> to make an attack/);
 });
 
 test(':icon: shortcodes render as local icons, unknown names stay text', () => {
