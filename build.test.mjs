@@ -43,3 +43,9 @@ test('ability lists become symbol rows', () => {
   assert.match(read('rules/classes/wizard.html'), /<span class="syms">⚔︎<\/span> <strong>Magic Missile<\/strong>:/);
   assert.match(read('rules/classes/fighter.html'), /<span class="syms">🛡︎<\/span> <em>shield<\/em>:/);
 });
+
+test(':icon: shortcodes render as local icons, unknown names stay text', () => {
+  const html = read('rules/classes/berzerker.html');
+  assert.ok(html.includes('<i class="icon" style="--icon:url(/assets/icons/swords.svg)" aria-hidden="true"></i> Attack'));
+  assert.ok(!html.includes(':swords:'));
+});

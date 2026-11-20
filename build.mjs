@@ -96,7 +96,19 @@ function markMoves(tokens) {
   return any;
 }
 
+// :name: in markdown draws assets/icons/name.svg; unknown names stay as text.
+const ICONS = new Set(fs.readdirSync(path.join(ROOT, 'assets/icons')).map((f) => f.replace(/\.svg$/, '')));
 marked.use({
+  extensions: [{
+    name: 'icon',
+    level: 'inline',
+    start: (src) => src.indexOf(':'),
+    tokenizer(src) {
+      const m = /^:([a-z-]+):/.exec(src);
+      if (m && ICONS.has(m[1])) return { type: 'icon', raw: m[0], name: m[1] };
+    },
+    renderer: (t) => `<i class="icon" style="--icon:url(/assets/icons/${t.name}.svg)" aria-hidden="true"></i>`,
+  }],
   renderer: {
     heading(t) {
       const inner = this.parser.parseInline(t.tokens);
