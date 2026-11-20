@@ -147,3 +147,11 @@ tbody tr:nth-child(even) td { background: var(--band); }
 .js .tools { display: flex; }
 .tabs, .band { position: relative; }
 .moves > li { overflow-wrap: anywhere; }
+
+/* Local icons: masked SVGs in /assets/icons, coloured by the text colour. */
+.fa-solid::before{content:"";display:inline-block;width:1em;height:1em;margin-right:.15em;vertical-align:-.125em;background:currentColor;-webkit-mask:var(--icon) center/contain no-repeat;mask:var(--icon) center/contain no-repeat}
+.fa-solid{font-style:normal}
+.fa-fingerprint{--icon:url(/assets/icons/fingerprint.svg)}
+.fa-swords{--icon:url(/assets/icons/swords.svg)}
+.fa-shield{--icon:url(/assets/icons/shield.svg)}
+.fa-bullhorn{--icon:url(/assets/icons/bullhorn.svg)}
