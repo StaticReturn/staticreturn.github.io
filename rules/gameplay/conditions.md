@@ -10,12 +10,6 @@ parent: Gameplay
 ## Conditions
 Conditions last until the beginning of your turn.  If you have at least as many conditions as your defense you receive wounds instead.
 
-### Condition categories are as follows:
-* Movement
-* Perception
-* Attack
-* Defense
-
 ### Condition Examples
 * Blinded, Dazed, Prone, Off Balance.
 

@@ -9,11 +9,7 @@ nav_order: 2
 # Brawler
 A person who fights effectively with his bare fists.
 
-*  Your unarmed attacks deal 3 points of damage.
-*  You cannot be dazed.
-*  Ignore bludgeoning resistance.
-*  ⚔: When melee attacking an opponent not wearing armor add 1 damage.
-*  ⚔: Grapple an opponent.
-*  ✧: Daze an opponent.
-*  ✧: Stun a dazed opponent.
-*  🛡: Gain bludgeoning resistance.
+*  :fingerprint: &nbsp;**Champion Fighter**: &nbsp;When using anatomy or leverage against an opponent your unarmed attacks treat the opponent as having one less defense.
+*  :swords: &nbsp;**Attack**: &nbsp;Ignore bludgeoning resistance.
+*  :shield: &nbsp;**Defense**: &nbsp;Gain bludgeoning resistance.
+*  :superpowers: &nbsp;**Slippery**: &nbsp;You cannot be grappled.

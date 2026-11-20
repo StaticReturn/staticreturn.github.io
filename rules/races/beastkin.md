@@ -13,7 +13,7 @@ Part Human, part animal.  The tables below are guidelines.  You may choose or ro
 
 ### Animal
 
-|        | 1.  Urban            | 2.  Rural  | 3.  Wild      | 4.  Wild   | 5.  Exotic   | 6.  Exotic |
+| 2d6    | 1.  Urban            | 2.  Rural  | 3.  Wild      | 4.  Wild   | 5.  Exotic   | 6.  Exotic |
 | ------ | -------------------- | ---------- | ------------- | ---------- | ------------ | ---------- |
 | **2**  | Cockroach            | Bat        | Wolf          | Muskrat    | Lion         | Snake      |
 | **3**  | Cat                  | Cat        | Fox           | Raccoon    | Wolverine    | Monkey     |

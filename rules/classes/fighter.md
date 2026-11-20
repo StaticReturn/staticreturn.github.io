@@ -9,8 +9,7 @@ nav_order: 4
 # Fighter
 A person who is familiar with the tools of combat and can extract the most out of them.
 
-* Your weapons may have two tags.
-* ⚔, ✧: Deal two less your normal damage to up to three opponents within melee range.
-* ✧: All opponents that are struck are moved back 5 feet.
-* 🛡, _shield_: When an ally adjacent to you is hit with a melee attack you may reduce the damage by 2.
-* 🛡, 🛡, _shield_: You may block 1 ranged attack targeting you.  It deals no damage and has no effect.
+*  :fingerprint: &nbsp;**Tactics**: &nbsp;If you have not use the same tool to deal damage since last round deal one more point of damage.
+*  :swords: &nbsp;**Attack**: &nbsp;Deal two less your normal damage to up to three opponents within melee range.
+*  :shield: &nbsp;**Defense**: &nbsp;You may block 1 ranged attack targeting you.
+*  :superpowers: &nbsp;**Battle Worn**: &nbsp;You may use two tags of a weapons at once.
