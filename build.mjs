@@ -161,7 +161,7 @@ function template(page, site) {
   const otp = numbered.length >= 4 ? `<details class="otp"><summary>On this page</summary><ol>${numbered.map((h) => `<li><a href="#${h.id}">${esc(h.text)}</a></li>`).join('')}</ol></details>\n` : '';
   const lede = page.html.startsWith('<p class="lede">');
   // Gameplay, profession, class and race pages get a side rail in place of the band that listed the same pages:
-  // an index lists its children, a leaf lists its siblings and also drops the label and prev/next
+  // an index lists its children, a leaf lists its siblings and also drops the label. Neither has prev/next
   const list = ['Gameplay', 'Professions', 'Classes', 'Races'].includes(section.title) && !page.notFound
     ? (page.children.length ? page.children : page.parent?.children) : null;
   const rail = !!list, leaf = rail && !page.children.length;
@@ -209,7 +209,7 @@ ${label && !leaf ? `<p class="label">${esc(label)}</p>` : ''}
 <div class="body${page.numbered && !sheeted ? ' numbered' : ''}">
 ${sheeted ? sheet : otp && lede ? page.html.replace('</p>\n', '</p>\n' + otp) : otp + page.html}</div>
 ${toc.length && !rail ? `<ol class="toc${toc.length > 8 ? ' wide' : ''}">\n${toc.map((c) => `<li><a href="${c.url}"><span class="n">${c.num}</span><b>${esc(c.title)}</b>${c.summary ? `<small>${esc(c.summary.length > 110 ? c.summary.slice(0, 107).trimEnd() + '…' : c.summary)}</small>` : ''}</a></li>`).join('\n')}\n</ol>` : ''}
-${(prev || next) && !leaf ? `<nav class="pn" aria-label="Previous and next page">
+${(prev || next) && !rail ? `<nav class="pn" aria-label="Previous and next page">
 ${prev ? `<a href="${prev.url}"><span>← ${prev.num} Previous</span><b>${esc(prev.title)}</b></a>` : '<span></span>'}
 ${next ? `<a class="next" href="${next.url}"><span>${next.num} Next →</span><b>${esc(next.title)}</b></a>` : ''}
 </nav>` : ''}

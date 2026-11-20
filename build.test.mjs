@@ -77,12 +77,12 @@ test('class pages keep the group band and list their group in the rail', () => {
   assert.doesNotMatch(html, /class="(pn|label|sheet)"/);
 });
 
-test('index pages list their children in a rail and keep their label and prev/next', () => {
+test('index pages list their children in a rail and keep their label', () => {
   const index = read('rules/professions/professions.html');
   assert.match(index, /<nav class="rail" aria-label="Professions pages">\n<a href="\/rules\/professions\/barbarian\.html"><span>4\.1<\/span>Barbarian<\/a>/);
   assert.doesNotMatch(index, /class="(band|toc)|aria-current="page"><span>/);
   assert.match(index, /class="label"/);
-  assert.match(index, /class="pn"/);
+  assert.doesNotMatch(index, /class="pn"/);
   const group = read('rules/classes/parents/close_combat.html');
   assert.match(group, /<nav class="rail" aria-label="Close Combat pages">/);
   assert.equal(group.match(/class="band"/g).length, 1);
