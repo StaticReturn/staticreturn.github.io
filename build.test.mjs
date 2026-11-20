@@ -57,8 +57,7 @@ test('profession pages use the sibling rail and a sectioned sheet', () => {
   assert.match(html, /<nav class="rail"[^>]*>\n(<a [^\n]+\n){6}<a href="\/rules\/professions\/knight\.html" aria-current="page"><span>4\.7<\/span>Knight<\/a>/);
   assert.doesNotMatch(html, /class="(band|pn|label)"/);
   assert.equal(html.match(/<section>/g).length, 3);
-  assert.match(read('rules/professions/professions.html'), /class="band"/);
-  assert.doesNotMatch(read('rules/gameplay/gameplay.html'), /class="rail"/);
+  assert.doesNotMatch(read('rules/magic/magic.html'), /class="rail"/);
   assert.match(read('rules/gameplay/combat.html'), /<nav class="rail" aria-label="Gameplay pages">/);
 });
 
@@ -76,5 +75,17 @@ test('class pages keep the group band and list their group in the rail', () => {
   assert.match(html, /<a href="\/rules\/classes\/duelist\.html" aria-current="page"><span>3\.1\.3<\/span>Duelist<\/a>/);
   assert.equal(html.match(/class="band"/g).length, 1);
   assert.doesNotMatch(html, /class="(pn|label|sheet)"/);
-  assert.doesNotMatch(read('rules/classes/parents/close_combat.html'), /class="rail"/);
+});
+
+test('index pages list their children in a rail and keep their label and prev/next', () => {
+  const index = read('rules/professions/professions.html');
+  assert.match(index, /<nav class="rail" aria-label="Professions pages">\n<a href="\/rules\/professions\/barbarian\.html"><span>4\.1<\/span>Barbarian<\/a>/);
+  assert.doesNotMatch(index, /class="band"|aria-current="page"><span>/);
+  assert.match(index, /class="label"/);
+  assert.match(index, /class="pn"/);
+  const group = read('rules/classes/parents/close_combat.html');
+  assert.match(group, /<nav class="rail" aria-label="Close Combat pages">/);
+  assert.equal(group.match(/class="band"/g).length, 1);
+  assert.doesNotMatch(read('index.html'), /class="rail"/);
+  assert.doesNotMatch(read('404.html'), /class="rail"/);
 });
