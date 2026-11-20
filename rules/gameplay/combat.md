@@ -44,6 +44,10 @@ Each attack causes a condition.  If the target's defense is equal to the number 
 
 The defend action, special abilities, and resistances may cause your attack to not inflict a condition.
 
+### Vulnerabilities & Resitances
+All players who have a vulnerability or resistance apply a -1 or +1 of damage.<br><br>
+All monsters who have a vulnerability or resistance apply halving or doubling of damage.
+
 ### Critical Hits
 
 ### Called Shots
@@ -57,5 +61,5 @@ The defend action, special abilities, and resistances may cause your attack to n
 ### Ranges
 * **Melee**:  Within 5 feet.
 * **Short**:  Within 30 feet.
-* **Long**:  Within 90 feet.
+* **Long**:  Within 60 feet.
 * **Extended**:  Within 300 feet.

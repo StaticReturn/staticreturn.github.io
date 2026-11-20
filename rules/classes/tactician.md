@@ -9,10 +9,7 @@ nav_order: 2
 # Tactician
 All of your abilities depend on watching the battlefield.  They may only be performed on targets that you have not lost sight of since your last turn.
 
-*  Traps deal 1 less point of damage to you.
-*  AOE effects deal 1 less point of damage as long as you have seen the source since your last turn.
-*  ⚔:  Your attack deals 1 additional point of damage.
-*  ⚔:  You grant an ally 1 additional damage.
-*  ✧:  Your ally may move half of their total movement and not provoke an attack from one opponent.
-*  ✧, 🛡:  You may ignore one melee or ranged attack of an opponent whose level is no greater than yours.
-*  🛡:  Your ally takes 1 less point of damage.
+*  :fingerprint: &nbsp;**A Call of Warning**: &nbsp;Shout at friend or foe. Add or subtract 10 movement to the source of your speech.
+*  :swords: &nbsp;**Attack**: &nbsp;You grant an ally 1 additional damage.
+*  :shield: &nbsp;**Defense**: &nbsp;Your ally takes 1 less point of damage.
+*  :superpowers: &nbsp;**Stall**: &nbsp;A monster you haven't targeted before that is level 2 or lower losses his turn.
