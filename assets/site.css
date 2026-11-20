@@ -130,6 +130,8 @@ tbody tr:nth-child(even) td { background: var(--band); }
   .body .num { margin-left: -180px; padding-left: 180px; }
   .num::before { position: absolute; left: 0; top: 20px; }
   /* Side by side from here up: the rail keeps its width at the page's left edge and follows the scroll */
+  /* Pages without a rail start where rail-page content does: 40px padding + 220px rail + 48px gap */
+  main:not(.railed) { max-width: 1388px; padding-left: 308px; }
   .rail { flex: 0 0 220px; position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow-y: auto; }
 }
 @media (max-width: 700px) {
@@ -147,7 +149,7 @@ tbody tr:nth-child(even) td { background: var(--band); }
 @media print {
   :root, :root[data-theme="dark"], :root:not([data-theme="light"]) { --bg: #fff; --ink: #000; --accent: #000; --on-accent: #fff; --band: #eee; }
   .top, .pn, .skip, .otp, .rail { display: none; }
-  main { padding: 0; max-width: none; }
+  main, main:not(.railed) { padding: 0; max-width: none; }
   h1 { font-size: 40pt; }
   .tw, .callout { break-inside: avoid; }
   .body :is(h2, h3, h4) { break-after: avoid; }
