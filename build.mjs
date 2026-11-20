@@ -161,7 +161,7 @@ function template(page, site) {
   const otp = numbered.length >= 4 ? `<details class="otp"><summary>On this page</summary><ol>${numbered.map((h) => `<li><a href="#${h.id}">${esc(h.text)}</a></li>`).join('')}</ol></details>\n` : '';
   const lede = page.html.startsWith('<p class="lede">');
   // Gameplay, profession, class and race pages get a side rail in place of the band that listed the same pages:
-  // an index lists its children, a leaf lists its siblings and also drops the label. Neither has prev/next
+  // an index lists its children, a leaf lists its siblings. Neither has the label or prev/next
   const list = ['Gameplay', 'Professions', 'Classes', 'Races'].includes(section.title) && !page.notFound
     ? (page.children.length ? page.children : page.parent?.children) : null;
   const rail = !!list, leaf = rail && !page.children.length;
@@ -204,7 +204,7 @@ ${group?.children.length && !rail ? `<nav class="band" aria-label="${esc(group.t
 </header>
 <main${rail ? ' class="railed"' : ' id="main"'}>
 ${rail ? `<nav class="rail" aria-label="${esc((leaf ? page.parent : page).title)} pages">\n${list.map((p) => `<a href="${p.url}"${p === page ? ' aria-current="page"' : ''}><span>${p.num}</span>${esc(p.title)}</a>`).join('\n')}\n</nav>\n<article id="main">` : ''}
-${label && !leaf ? `<p class="label">${esc(label)}</p>` : ''}
+${label && !rail ? `<p class="label">${esc(label)}</p>` : ''}
 <h1 style="${size}">${esc(page.h1)}</h1>
 <div class="body${page.numbered && !sheeted ? ' numbered' : ''}">
 ${sheeted ? sheet : otp && lede ? page.html.replace('</p>\n', '</p>\n' + otp) : otp + page.html}</div>
