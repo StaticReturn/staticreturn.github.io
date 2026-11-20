@@ -160,8 +160,8 @@ function template(page, site) {
   const numbered = page.heads.filter((h) => h.n);
   const otp = numbered.length >= 4 ? `<details class="otp"><summary>On this page</summary><ol>${numbered.map((h) => `<li><a href="#${h.id}">${esc(h.text)}</a></li>`).join('')}</ol></details>\n` : '';
   const lede = page.html.startsWith('<p class="lede">');
-  // Profession, class and race pages: a side rail of siblings replaces their band, the label and prev/next
-  const rail = ['Professions', 'Classes', 'Races'].includes(section.title) && page.parent && !page.children.length;
+  // Gameplay, profession, class and race pages: a side rail of siblings replaces their band, the label and prev/next
+  const rail = ['Gameplay', 'Professions', 'Classes', 'Races'].includes(section.title) && page.parent && !page.children.length;
   // Profession pages only: each h3 section is wrapped so CSS can set the list sections side by side
   const sheeted = rail && section.title === 'Professions';
   const [intro, ...secs] = page.html.split(/(?=<h3 )/);

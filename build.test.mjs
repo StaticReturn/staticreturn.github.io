@@ -58,7 +58,8 @@ test('profession pages use the sibling rail and a sectioned sheet', () => {
   assert.doesNotMatch(html, /class="(band|pn|label)"/);
   assert.equal(html.match(/<section>/g).length, 3);
   assert.match(read('rules/professions/professions.html'), /class="band"/);
-  assert.doesNotMatch(read('rules/gameplay/character.html'), /class="rail"/);
+  assert.doesNotMatch(read('rules/gameplay/gameplay.html'), /class="rail"/);
+  assert.match(read('rules/gameplay/combat.html'), /<nav class="rail" aria-label="Gameplay pages">/);
 });
 
 test('race pages get the rail but keep numbered sections and tables', () => {

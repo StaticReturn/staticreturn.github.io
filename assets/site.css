@@ -97,12 +97,12 @@ tbody tr:nth-child(even) td { background: var(--band); }
 .toc b { font-weight: 900; font-stretch: 110%; font-size: 32px; line-height: 1.05; text-transform: uppercase; overflow-wrap: anywhere; }
 .toc small { grid-column: 2; font-size: 16px; line-height: 1.4; }
 
-/* Profession, class and race pages: sibling rail beside a compact sheet (Contacts row, then list sections in columns) */
+/* Gameplay, profession, class and race pages: sibling rail beside a compact sheet (Contacts row, then list sections in columns) */
 .railed { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 32px 48px; padding-top: 40px; }
 .railed article { flex: 999 1 560px; min-width: 0; }
 .rail { flex: 1 1 220px; display: flex; flex-wrap: wrap; gap: 2px; background: var(--ink); border: 2px solid var(--ink); font-size: 17px; }
-.rail a { flex: 1 1 200px; display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 0 14px; background: var(--bg); text-decoration: none; font-weight: 600; white-space: nowrap; }
-.rail span { width: 44px; font-size: 12px; }
+.rail a { flex: 1 1 200px; display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 8px 14px; background: var(--bg); text-decoration: none; font-weight: 600; line-height: 1.25; }
+.rail span { flex: none; width: 44px; font-size: 12px; }
 .rail a:hover { background: var(--band); }
 .rail a[aria-current] { background: var(--accent); color: var(--on-accent); font-weight: 800; }
 .sheet { display: flex; flex-wrap: wrap; gap: 28px 40px; }
@@ -135,6 +135,7 @@ tbody tr:nth-child(even) td { background: var(--band); }
   main { padding: 32px 16px 48px; }
   .tabs, .band, .rail { flex-wrap: nowrap; overflow-x: auto; }
   .tabs a, .rail a { flex: 0 0 auto; }
+  .rail a { white-space: nowrap; }
   .rail { flex-basis: 100%; }
   .band { padding: 0 16px; }
   .body .lede { font-size: 21px; }
