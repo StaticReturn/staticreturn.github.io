@@ -208,7 +208,7 @@ ${label && !leaf ? `<p class="label">${esc(label)}</p>` : ''}
 <h1 style="${size}">${esc(page.h1)}</h1>
 <div class="body${page.numbered && !sheeted ? ' numbered' : ''}">
 ${sheeted ? sheet : otp && lede ? page.html.replace('</p>\n', '</p>\n' + otp) : otp + page.html}</div>
-${toc.length ? `<ol class="toc${toc.length > 8 ? ' wide' : ''}">\n${toc.map((c) => `<li><a href="${c.url}"><span class="n">${c.num}</span><b>${esc(c.title)}</b>${c.summary ? `<small>${esc(c.summary.length > 110 ? c.summary.slice(0, 107).trimEnd() + '…' : c.summary)}</small>` : ''}</a></li>`).join('\n')}\n</ol>` : ''}
+${toc.length && !rail ? `<ol class="toc${toc.length > 8 ? ' wide' : ''}">\n${toc.map((c) => `<li><a href="${c.url}"><span class="n">${c.num}</span><b>${esc(c.title)}</b>${c.summary ? `<small>${esc(c.summary.length > 110 ? c.summary.slice(0, 107).trimEnd() + '…' : c.summary)}</small>` : ''}</a></li>`).join('\n')}\n</ol>` : ''}
 ${(prev || next) && !leaf ? `<nav class="pn" aria-label="Previous and next page">
 ${prev ? `<a href="${prev.url}"><span>← ${prev.num} Previous</span><b>${esc(prev.title)}</b></a>` : '<span></span>'}
 ${next ? `<a class="next" href="${next.url}"><span>${next.num} Next →</span><b>${esc(next.title)}</b></a>` : ''}
