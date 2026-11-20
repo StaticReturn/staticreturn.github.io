@@ -5,7 +5,7 @@ nav_order: 3
 parent: Gameplay
 ---
 
-# Conditions, Impairments, & Wounds
+# Conditions & Wounds
 
 ## Conditions
 Conditions last until the beginning of your turn.  If you have at least as many conditions as your defense you receive wounds instead.
@@ -18,16 +18,6 @@ Conditions last until the beginning of your turn.  If you have at least as many 
 
 ### Condition Examples
 * Blinded, Dazed, Prone, Off Balance.
-
-
-
-## Impairments
-Instead of inflicting a wound, you may inflict an impairment.  Impairments last until the beginning of your turn.
-
-### Impairment List
-* Unarmed
-* Armor Break
-* Grappled
 
 
 ## Wounds
