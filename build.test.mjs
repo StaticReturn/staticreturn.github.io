@@ -58,5 +58,14 @@ test('profession pages use the sibling rail and a sectioned sheet', () => {
   assert.doesNotMatch(html, /class="(band|pn|label)"/);
   assert.equal(html.match(/<section>/g).length, 3);
   assert.match(read('rules/professions/professions.html'), /class="band"/);
-  assert.doesNotMatch(read('rules/classes/duelist.html'), /class="rail"/);
+  assert.doesNotMatch(read('rules/races/human.html'), /class="rail"/);
+});
+
+test('class pages keep the group band and list their group in the rail', () => {
+  const html = read('rules/classes/duelist.html');
+  assert.match(html, /<nav class="rail" aria-label="Close Combat pages">/);
+  assert.match(html, /<a href="\/rules\/classes\/duelist\.html" aria-current="page"><span>3\.1\.3<\/span>Duelist<\/a>/);
+  assert.equal(html.match(/class="band"/g).length, 1);
+  assert.doesNotMatch(html, /class="(pn|label|sheet)"/);
+  assert.doesNotMatch(read('rules/classes/parents/close_combat.html'), /class="rail"/);
 });
