@@ -126,9 +126,10 @@ tbody tr:nth-child(even) td { background: var(--band); }
 
 @media (min-width: 1000px) {
   /* Section numbers move into a left gutter, as in the mockup */
-  .body.numbered { padding-left: 180px; }
-  .body .num { margin-left: -180px; padding-left: 180px; }
-  .num::before { position: absolute; left: 0; top: 20px; }
+  .body.numbered { padding-left: 108px; }
+  .body .num { margin-left: -108px; padding-left: 108px; }
+  /* Right-aligned in a 60px box, leaving a 48px gap before the section name */
+  .num::before { position: absolute; left: 0; top: 20px; width: 60px; text-align: right; }
   /* Side by side from here up: the rail keeps its width at the page's left edge and follows the scroll */
   /* Pages without a rail start where rail-page content does: 40px padding + 220px rail + 48px gap */
   main:not(.railed) { max-width: 1388px; padding-left: 308px; }
