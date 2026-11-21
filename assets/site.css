@@ -46,7 +46,7 @@ input:focus-visible { outline-offset: -6px; }
 .band .k { font-size: 12px; }
 
 /* Page */
-main { max-width: 1120px; margin: 0; padding: 56px 40px 72px; }
+main { margin: 0; padding: 56px 40px 72px; }
 .label { font-size: 15px; color: var(--accent); margin: 0 0 20px; }
 h1 { margin: 0 0 24px; font-weight: 900; font-stretch: 125%; line-height: 0.95; text-transform: uppercase; letter-spacing: -0.03em; overflow-wrap: anywhere; }
 .body p, .body ul, .body ol { margin: 0 0 20px; }
@@ -98,8 +98,8 @@ tbody tr:nth-child(even) td { background: var(--band); }
 .toc small { grid-column: 2; font-size: 16px; line-height: 1.4; }
 
 /* Gameplay, profession, class and race pages: sibling rail beside a compact sheet (Contacts row, then list sections in columns) */
-.railed { max-width: none; display: flex; flex-wrap: wrap; align-items: flex-start; gap: 32px 48px; padding-top: 40px; }
-.railed article { flex: 999 1 560px; min-width: 0; max-width: 1120px; }
+.railed { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 32px 48px; padding-top: 40px; }
+.railed article { flex: 999 1 560px; min-width: 0; }
 .rail { flex: 1 1 220px; display: flex; flex-wrap: wrap; gap: 2px; background: var(--ink); border: 2px solid var(--ink); font-size: 17px; }
 .rail a { flex: 1 1 200px; display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 8px 14px; background: var(--bg); text-decoration: none; font-weight: 600; line-height: 1.25; }
 .rail span { flex: none; width: 44px; font-size: 12px; }
@@ -126,19 +126,19 @@ tbody tr:nth-child(even) td { background: var(--band); }
 
 @media (min-width: 1000px) {
   /* Section numbers move into a left gutter, as in the mockup */
-  .body.numbered { padding-left: 108px; }
-  .body .num { margin-left: -108px; padding-left: 108px; }
+  /* Only what follows the first numbered heading is indented; the intro under the page title stays flush left */
+  .body.numbered > .num ~ :not(.num) { margin-left: 108px; }
+  .body.numbered > .num { padding-left: 108px; }
   /* Right-aligned in a 60px box, leaving a 48px gap before the section name */
   .num::before { position: absolute; left: 0; top: 20px; width: 60px; text-align: right; }
   /* Side by side from here up: the rail keeps its width at the page's left edge and follows the scroll */
   /* Pages without a rail start where rail-page content does: 40px padding + 220px rail + 48px gap */
-  main:not(.railed) { max-width: 1388px; padding-left: 308px; }
+  main:not(.railed) { padding-left: 308px; }
   .rail { flex: 0 0 220px; position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow-y: auto; }
 }
 @media (min-width: 1400px) {
   /* "On this page" becomes a right-hand column that follows the scroll; below this width it stays a box under the title */
-  /* The text column keeps its 852px cap; the spare width goes between it and the column, which sits against the page's right padding */
-  :is(main, article):has(> .otp) { display: grid; grid-template-columns: minmax(0, 852px) 220px; column-gap: 48px; justify-content: space-between; max-width: none; }
+  :is(main, article):has(> .otp) { display: grid; grid-template-columns: minmax(0, 1fr) 220px; column-gap: 48px; }
   :is(main, article):has(> .otp) > * { grid-column: 1; }
   :is(main, article) > .otp { grid-column: 2; grid-row: 1 / span 9; align-self: start; position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow-y: auto; margin: 0; }
   .otp summary { pointer-events: none; list-style: none; }
@@ -159,7 +159,7 @@ tbody tr:nth-child(even) td { background: var(--band); }
 @media print {
   :root, :root[data-theme="dark"], :root:not([data-theme="light"]) { --bg: #fff; --ink: #000; --accent: #000; --on-accent: #fff; --band: #eee; }
   .top, .pn, .skip, .otp, .rail { display: none; }
-  main, main:not(.railed) { padding: 0; max-width: none; }
+  main, main:not(.railed) { padding: 0; }
   h1 { font-size: 40pt; }
   .tw, .callout { break-inside: avoid; }
   .body :is(h2, h3, h4) { break-after: avoid; }
