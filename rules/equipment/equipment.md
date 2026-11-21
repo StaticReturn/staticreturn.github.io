@@ -61,5 +61,5 @@ Dagger, Shortsword, Longsword, Greatsword, Spear, Polearm, Handaxe, Battleaxe, G
 * **Trip**:  This weapon causes the opponent to become prone.
 * **Unarmed**:  Unarmed attacks deal 1 point of damage.
 * **Unwieldy**:  All Dexterity challenges are at disadvantage.
-* **Weak Armor**:  If you have not rolled any shields this turn, this armor does not provide any traits.
+* **Weak Armor**:  This armor does not provide any protection against a level 2 or higher monster.
 * **Weighty**:  Treat your body weight as if it were twice as much as normal.

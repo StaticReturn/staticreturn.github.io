@@ -15,3 +15,6 @@ Coastal Villagers, Dockhands, Mariners, Merchants.
 * **Ship Maintenance & Repair**
 * **Knowledge: Oceanic Navigation**
 * **Oceanic Survival**
+
+### Abilities
+* You can hold your breath twice as long as normal.

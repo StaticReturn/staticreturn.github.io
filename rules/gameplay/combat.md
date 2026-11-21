@@ -39,24 +39,27 @@ A turn is the time when a single character may act.  A round is time in which al
 ### Damage
 A character always imposes a change of state in the combat when attacking.  He will either impose a condition or a wound on an opponent.  Conditions are short changes to the status of a character, such as being temporarily off balance.  A wound is a long term condition, such as losing the use of a limb.
 
-Each attack causes a condition.  If the target's defense is equal to the number of conditions he already has just before the attack, then the target takes a wound instead.  For each wound inflicted the target loses a hit point.  When a target has zero hit points he dies.
+Each attack causes a condition.  If the target's defense is equal to the number of conditions he already has just before the attack, then the target takes a wound instead.   When a target's wound count equals or exceeds his hit points he dies.
 
 The defend action, special abilities, and resistances may cause your attack to not inflict a condition.
 
 ### Vulnerabilities & Resistances
-All players who have a vulnerability or resistance apply a -1 or +1 of damage.
-
+All players who have a vulnerability or resistance apply a -1 or +1 of damage.<br>
 All monsters who have a vulnerability or resistance apply halving or doubling of damage.
 
 ### Critical Hits
 
 ### Called Shots
+In order to hit a difficult to hit target you must pay 2 damage.  If you cannot pay 2 damage you must pay with one round of waiting.
 
 ### Two Weapon Fighting
 
 ### Cover
-* **Partial Cover**:
-* **Full Cover**:
+Partial cover means about 1/2 of the defend's body is behind sturdy cover.  Full cover means all of the defend's body is behind cover for only part of the round.  Perfect cover means all of the defender's body has been behind cover for the full round.
+
+* **Partial Cover**:  -2 damage to the target.
+* **Full Cover**:  -4 damage to the target.
+* **Perfect Cover**:  No damage to the target.
 
 ### Ranges
 * **Melee**:  Within 5 feet.

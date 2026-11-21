@@ -17,6 +17,6 @@ Merchants, guides, guilds.
 * **Wilderness Survival**
 
 ### Abilities
-* You are never lost.
+* You are never lost as long as you have a map.
 * You are twice as likely to find shelter.
 * When surprised roll a d6.  On a 5-6 you are not surprised or avoid melee range effects of a trap.

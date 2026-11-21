@@ -12,7 +12,7 @@ Spells, but at a price.  Wizards all have vulnerability to physical damage.  Wiz
 
 | Cost  | Name       | Description |
 | ----- | ----------- | ----------- |
-| **1** | Magic Missile |  Perform a long range attack that is always a called shot. |
+| **1** | Magic Missile |  Perform a ranged attack that is always a called shot. |
 | **2x** | Speed |  You, and 1 target for each 2 mana spent, get double movement until your next turns. |
 | **2** | Circle of Protection |  All allies in a 10 foot radius of the target point gain 1 armor.  5 mana per turn to maintain.  |
 | **5** | Slow Ground |  Create a patch of ground that halves the movement of all inside it.  Up to 100 sq ft.  5 mana per turn to maintain. |
