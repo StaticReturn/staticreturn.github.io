@@ -134,6 +134,14 @@ tbody tr:nth-child(even) td { background: var(--band); }
   main:not(.railed) { max-width: 1388px; padding-left: 308px; }
   .rail { flex: 0 0 220px; position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow-y: auto; }
 }
+@media (min-width: 1400px) {
+  /* "On this page" becomes a right-hand column that follows the scroll; below this width it stays a box under the title */
+  :is(main, article):has(> .otp) { display: grid; grid-template-columns: minmax(0, 1fr) 220px; column-gap: 48px; }
+  :is(main, article):has(> .otp) > * { grid-column: 1; }
+  :is(main, article) > .otp { grid-column: 2; grid-row: 1 / span 9; align-self: start; position: sticky; top: 16px; max-height: calc(100vh - 32px); overflow-y: auto; margin: 0; }
+  .otp summary { pointer-events: none; list-style: none; }
+  .otp ol { columns: auto; }
+}
 @media (max-width: 700px) {
   .bar { padding: 14px 16px; } .brand { font-size: 22px; }
   main { padding: 32px 16px 48px; }

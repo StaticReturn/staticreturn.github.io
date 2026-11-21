@@ -16,6 +16,9 @@ for (const a of document.querySelectorAll('.tabs [aria-current], .band [aria-cur
   strip.scrollLeft = a.offsetLeft - (strip.clientWidth - a.offsetWidth) / 2;
 }
 
+// Below the width where "On this page" is a side column (site.css), it starts collapsed.
+if (!matchMedia('(min-width: 1400px)').matches) document.querySelector('.otp')?.removeAttribute('open');
+
 // Search: every word must appear; matches in a title or heading come before matches in page text.
 const input = document.querySelector('#q');
 const results = document.querySelector('.results');

@@ -65,7 +65,7 @@ test('race pages get the rail but keep numbered sections and tables', () => {
   const html = read('rules/races/beastkin.html');
   assert.match(html, /<nav class="rail" aria-label="Races pages">/);
   assert.match(html, /<div class="body numbered">/);
-  assert.match(html, /<details class="otp">/);
+  assert.match(html, /<h1[^>]*>.*<\/h1>\n<details class="otp" open>/);
   assert.doesNotMatch(html, /class="(band|pn|label|sheet)"/);
 });
 
